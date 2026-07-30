@@ -191,6 +191,7 @@ const sicakYemekler: Recipe[] = [
   },
   {
   "id": "karniyarik",
+    description: "Kızartılmış patlıcanların kıymalı harçla doldurulup fırınlandığı, Türk mutfağının en sevilen klasik ev yemeği.",
   "title": "Karnıyarık",
   "mainCategory": "sicak-yemekler",
   "subCategory": "et-yemekleri",
@@ -333,6 +334,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "izmir-kofte",
+    description: "Fırında patates ve domates üzerinde pişirilen, zengin bir sosla servis edilen İzmir usulü köfte.",
   "title": "İzmir Köfte",
   "mainCategory": "sicak-yemekler",
   "subCategory": "et-yemekleri",
@@ -464,6 +466,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "ankara-tava",
+    description: "Haşlanmış kuzu incik etinin arpa şehriyeyle fırınlanarak birleştirildiği, Ankara'ya özgü doyurucu bir yemek.",
   "title": "Ankara Tava",
   "mainCategory": "sicak-yemekler",
   "subCategory": "et-yemekleri",
@@ -572,6 +575,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "tavuk-sote",
+    description: "Mantar ve renkli biberlerle hızlıca soteleştirilen, hafif ve pratik bir tavuk yemeği.",
   "title": "Tavuk Sote",
   "mainCategory": "sicak-yemekler",
   "subCategory": "et-yemekleri",
@@ -682,6 +686,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "sac-kavurma",
+    description: "İnce dilimlenmiş etin sebzelerle birlikte saç tavada hızlıca kavrulduğu, Anadolu'nun pratik lezzeti.",
   "title": "Sac Kavurma",
   "mainCategory": "sicak-yemekler",
   "subCategory": "et-yemekleri",
@@ -786,6 +791,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-taze-fasulye",
+    description: "Taze fasulyenin domates ve zeytinyağıyla ağır ateşte pişirildiği, yazın en sevilen zeytinyağlı sebze yemeği.",
   "title": "Zeytinyağlı Taze Fasulye",
   "mainCategory": "sicak-yemekler",
   "subCategory": "sebze-yemekleri",
@@ -888,6 +894,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "kuru-fasulye",
+    description: "Etli ve domates soslu, pilavın yanında Türk sofralarının değişmez klasiği kuru fasulye.",
   "title": "Kuru Fasulye",
   "mainCategory": "sicak-yemekler",
   "subCategory": "sebze-yemekleri",
@@ -1003,6 +1010,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "nohut-yemegi",
+    description: "Etli nohutların zengin bir domates sosunda pişirildiği, doyurucu ve besleyici bir ev yemeği.",
   "title": "Nohut Yemeği",
   "mainCategory": "sicak-yemekler",
   "subCategory": "sebze-yemekleri",
@@ -1106,6 +1114,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "firinda-mucver",
+    description: "Rendelenmiş kabak, beyaz peynir ve dereotuyla hazırlanıp fırında pişirilen, hafif ve pratik bir sebze yemeği.",
   "title": "Fırında Mücver",
   "mainCategory": "sicak-yemekler",
   "subCategory": "sebze-yemekleri",
@@ -1217,6 +1226,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "etli-yaprak-sarmasi",
+    description: "Asma yapraklarının kıymalı pirinç harcıyla doldurulup sıcak servis edildiği, doyurucu bir Türk mutfağı klasiği.",
   "title": "Etli Yaprak Sarması",
   "mainCategory": "sicak-yemekler",
   "subCategory": "sebze-yemekleri",
@@ -1350,6 +1360,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "imam-bayildi",
+    description: "Bol soğan ve sarımsakla zeytinyağında ağır ateşte pişen patlıcanın, Osmanlı mutfağından gelen zarif lezzeti.",
   "title": "İmam Bayıldı",
   "mainCategory": "sicak-yemekler",
   "subCategory": "sebze-yemekleri",
@@ -1458,6 +1469,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "ezogelin-corbasi",
+    description: "Kırmızı mercimek, pirinç ve bulgurun bir araya geldiği, Gaziantep'in doyurucu ve baharatlı çorbası.",
   "title": "Ezogelin Çorbası",
   "mainCategory": "sicak-yemekler",
   "subCategory": "corbalar",
@@ -1581,6 +1593,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "tarhana-corbasi",
+    description: "Ev yapımı fermente tarhananın tereyağı ve naneyle buluştuğu, kış aylarının vazgeçilmez sıcak çorbası.",
   "title": "Tarhana Çorbası",
   "mainCategory": "sicak-yemekler",
   "subCategory": "corbalar",
@@ -1683,6 +1696,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "yayla-corbasi",
+    description: "Yoğurt ve pirincin bir araya geldiği, üzerine kızdırılmış tereyağı ve naneyle servis edilen ferahlatıcı çorba.",
   "title": "Yayla Çorbası",
   "mainCategory": "sicak-yemekler",
   "subCategory": "corbalar",
@@ -1804,6 +1818,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "beyran-corbasi",
+    description: "Kuzu etinin uzun süre pişirilmesiyle hazırlanan, Gaziantep'e özgü baharatlı ve doyurucu sabah çorbası.",
   "title": "Beyran Çorbası",
   "mainCategory": "sicak-yemekler",
   "subCategory": "corbalar",
@@ -1915,6 +1930,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "kelle-paca-corbasi",
+    description: "Kuzu paçasının uzun saatler kaynatılmasıyla hazırlanan, sarımsaklı sirke sosuyla servis edilen geleneksel çorba.",
   "title": "Kelle Paça Çorbası",
   "mainCategory": "sicak-yemekler",
   "subCategory": "corbalar",
@@ -2037,6 +2053,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "dugun-corbasi",
+    description: "Yumurta-limon sosuyla zenginleştirilen, kavrulan kırmızı biberli tereyağıyla süslenen zarif düğün çorbası.",
   "title": "Düğün Çorbası",
   "mainCategory": "sicak-yemekler",
   "subCategory": "corbalar",
@@ -2160,6 +2177,7 @@ const sicakYemekler: Recipe[] = [
 },
   {
   "id": "domates-corbasi",
+    description: "Taze domateslerin püre haline getirilip pişirildiği, kremsi ve ferahlatıcı klasik bir çorba.",
   "title": "Domates Çorbası",
   "mainCategory": "sicak-yemekler",
   "subCategory": "corbalar",

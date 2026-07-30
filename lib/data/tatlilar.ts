@@ -181,6 +181,7 @@ const tatlilar: Recipe[] = [
   },
   {
   "id": "kunefe",
+    description: "Tel kadayıfın iki katman arasında peynirle buluşup şerbetlenerek sıcak servis edildiği, Hatay'ın efsanevi tatlısı.",
   "title": "Künefe",
   "mainCategory": "tatlilar",
   "subCategory": "serbetli-tatlilar",
@@ -301,6 +302,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "sekerpare",
+    description: "Bademle süslenen, şerbete batırılmış küçük ve yumuşak irmikli kurabiyeler.",
   "title": "Şekerpare",
   "mainCategory": "tatlilar",
   "subCategory": "serbetli-tatlilar",
@@ -420,6 +422,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "revani",
+    description: "İrmik unundan yapılan, şerbetle ıslatılan hafif ve sünger dokulu bir kek tatlısı.",
   "title": "Revani",
   "mainCategory": "tatlilar",
   "subCategory": "serbetli-tatlilar",
@@ -563,6 +566,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "tulumba-tatlisi",
+    description: "Kabartılmış hamurun kızartılıp şerbete batırıldığı, çıtır dışı yumuşak içiyle sevilen bir tatlı.",
   "title": "Tulumba Tatlısı",
   "mainCategory": "tatlilar",
   "subCategory": "serbetli-tatlilar",
@@ -693,6 +697,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "kemalpasa-tatlisi",
+    description: "Küçük peynirli hamur toplarının şerbette pişirildiği, Bursa'ya özgü hafif bir tatlı.",
   "title": "Kemalpaşa Tatlısı",
   "mainCategory": "tatlilar",
   "subCategory": "serbetli-tatlilar",
@@ -804,6 +809,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "kadayif",
+    description: "Tel kadayıfın cevizle katmanlanıp şerbetle buluştuğu, çıtır dokulu geleneksel bir tatlı.",
   "title": "Kadayıf",
   "mainCategory": "tatlilar",
   "subCategory": "serbetli-tatlilar",
@@ -1041,6 +1047,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "firin-sutlac",
+    description: "Pirinç ve sütün fırında üstü kızararak pişirildiği, Türk mutfağının en sevilen sütlü tatlısı.",
   "title": "Fırın Sütlaç",
   "mainCategory": "tatlilar",
   "subCategory": "sutlu-tatlilar",
@@ -1150,6 +1157,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "tavuk-gogsu",
+    description: "Tatlı tadı olan özel bir sütlü tatlı; adını, dokusuna benzerlik gösteren tavuk göğsü liflerinden alır.",
   "title": "Tavuk Göğsü",
   "mainCategory": "tatlilar",
   "subCategory": "sutlu-tatlilar",
@@ -1246,6 +1254,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "keskul",
+    description: "Badem sütünün pişirilip hindistancevizi ve fıstıkla süslendiği, zarif ve hafif bir muhallebi çeşidi.",
   "title": "Keşkül",
   "mainCategory": "tatlilar",
   "subCategory": "sutlu-tatlilar",
@@ -1356,6 +1365,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "muhallebi",
+    description: "Sütün nişastayla kıvam kazandığı, gül suyu ve fıstıkla süslenen klasik bir Osmanlı tatlısı.",
   "title": "Muhallebi",
   "mainCategory": "tatlilar",
   "subCategory": "sutlu-tatlilar",
@@ -1457,6 +1467,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "gullac",
+    description: "İnce yufkaların sütle ıslatılıp ceviz ve narla süslendiği, Ramazan aylarının hafif ve zarif tatlısı.",
   "title": "Güllaç",
   "mainCategory": "tatlilar",
   "subCategory": "sutlu-tatlilar",
@@ -1567,6 +1578,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "supangle",
+    description: "Çikolatalı pudingin bisküviyle katmanlandığı, kremalı ve doyurucu bir tatlı.",
   "title": "Supangle",
   "mainCategory": "tatlilar",
   "subCategory": "sutlu-tatlilar",
@@ -1686,6 +1698,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "irmik-helvasi",
+    description: "Kavrulan irmiğin tereyağı ve şekerli sütle pişirildiği, sıcak servis edilen sade bir helva.",
   "title": "İrmik Helvası",
   "mainCategory": "tatlilar",
   "subCategory": "hamur-isleri-helva",
@@ -1792,6 +1805,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "un-helvasi",
+    description: "Kavrulan unun tereyağıyla karamelize edilip şekerli suyla pişirildiği geleneksel bir helva.",
   "title": "Un Helvası",
   "mainCategory": "tatlilar",
   "subCategory": "hamur-isleri-helva",
@@ -1891,6 +1905,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "kabak-tatlisi",
+    description: "Balkabağının şeker ve suyla ağır ateşte pişirilip cevizle süslendiği, kışın en sevilen tatlısı.",
   "title": "Kabak Tatlısı",
   "mainCategory": "tatlilar",
   "subCategory": "hamur-isleri-helva",
@@ -1978,6 +1993,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "ayva-tatlisi",
+    description: "Ayvanın şekerli suda pişirilip kaymakla servis edildiği, kışın vazgeçilmez zarif bir meyve tatlısı.",
   "title": "Ayva Tatlısı",
   "mainCategory": "tatlilar",
   "subCategory": "hamur-isleri-helva",
@@ -2090,6 +2106,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "asure",
+    description: "Buğday, kuru meyve ve baklagillerin bir araya geldiği, bolluk ve paylaşımı simgeleyen geleneksel bir tatlı.",
   "title": "Aşure",
   "mainCategory": "tatlilar",
   "subCategory": "hamur-isleri-helva",

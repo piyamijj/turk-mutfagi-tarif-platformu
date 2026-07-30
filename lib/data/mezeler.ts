@@ -137,6 +137,7 @@ const mezeler: Recipe[] = [
   },
   {
   "id": "humus",
+    description: "Nohut ve tahinin zeytinyağıyla buluştuğu, Ortadoğu ve Türk mutfağının ortak mirası olan pürüzsüz, doyurucu bir meze klasiği.",
   "title": "Humus",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -258,6 +259,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "muhammara",
+    description: "Kızarmış kırmızı biber ve cevizin acı biberle harmanlandığı, Güneydoğu Anadolu'nun ateşli ve zengin mezesi.",
   "title": "Muhammara / Acuka",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -365,6 +367,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "babagannus",
+    description: "Közlenmiş patlıcanın tahin ve limonla buluştuğu, dumanlı aromasıyla dikkat çeken pürüzsüz bir meze.",
   "title": "Babagannuş",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -475,6 +478,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "koz-patlican-salatasi",
+    description: "Ateşte közlenen patlıcanın domates ve biberle buluştuğu, dumanlı ve hafif bir zeytinyağlı meze.",
   "title": "Köz Patlıcan Salatası",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -575,6 +579,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "kopoglu",
+    description: "Kızarmış patlıcan ve kabağın sarımsaklı yoğurt ve domates sosuyla buluştuğu katmanlı bir meze.",
   "title": "Köpoğlu",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -701,6 +706,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "tarator",
+    description: "Ceviz, sarımsak ve bayat ekmeğin yoğurtla harmanlandığı, kremsi dokulu geleneksel bir meze.",
   "title": "Tarator",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -801,6 +807,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "fava",
+    description: "Kuru bakla'nın püre haline getirilip dereotu ve zeytinyağıyla servis edildiği, Ege mutfağının zarif bir mezesi.",
   "title": "Fava",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -913,6 +920,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "deniz-borulcesi",
+    description: "Deniz kıyısında yetişen bu özel otun sarımsak ve zeytinyağında hafifçe soteleştiği, iyot kokulu taze bir meze.",
   "title": "Deniz Börülcesi",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -999,6 +1007,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "cacik",
+    description: "Salatalık, sarımsak ve yoğurdun naneyle buluştuğu, sıcak yaz günlerinin ferahlatıcı klasik mezesi.",
   "title": "Cacık",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -1099,6 +1108,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "atom",
+    description: "Ceviz ve kırmızı biberin acı ve ateşli bir şekilde harmanlandığı, damak çatlatan yoğun kıvamlı bir meze.",
   "title": "Atom",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -1202,6 +1212,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "girit-ezmesi",
+    description: "Zeytin, badem ve otların birleştiği, Ege kıyılarından gelen taze ve hafif bir meze.",
   "title": "Girit Ezmesi",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -1304,6 +1315,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "muallim",
+    description: "Yoğurt ve tahinin baharatlarla harmanlandığı, hafif ve kremsi dokulu bir başlangıç mezesi.",
   "title": "Muallim",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -1436,6 +1448,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "cevizli-kabak-tarator",
+    description: "Rendelenmiş kabağın cevizli yoğurt sosuyla buluştuğu, hafif ve ferahlatıcı bir yaz mezesi.",
   "title": "Cevizli Kabak Tarator",
   "mainCategory": "mezeler",
   "subCategory": "soguk-mezeler",
@@ -1553,6 +1566,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "arnavut-cigeri",
+    description: "Küp doğranmış kuzu ciğerinin baharatlı unla kaplanıp kızartıldığı, soğan halkalarıyla servis edilen köklü bir meze.",
   "title": "Arnavut Ciğeri",
   "mainCategory": "mezeler",
   "subCategory": "sicak-mezeler",
@@ -1672,6 +1686,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "tereyagli-karides-tava",
+    description: "Karidesin tereyağı, sarımsak ve pul biberle kavrulduğu, hızlı hazırlanan sıcak bir deniz mahsulleri mezesi.",
   "title": "Tereyağlı Karides Tava",
   "mainCategory": "mezeler",
   "subCategory": "sicak-mezeler",
@@ -1784,6 +1799,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "kalamar-tava",
+    description: "Halka halka kesilen kalamarın çıtır çıtır kızartıldığı, tarator sosuyla servis edilen sevilen bir meze.",
   "title": "Kalamar Tava",
   "mainCategory": "mezeler",
   "subCategory": "sicak-mezeler",
@@ -1929,6 +1945,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "sicak-humus",
+    description: "Klasik humusun kavrulmuş kıyma ve tereyağıyla zenginleştirildiği, sıcak servis edilen doyurucu bir versiyon.",
   "title": "Sıcak Humus",
   "mainCategory": "mezeler",
   "subCategory": "sicak-mezeler",
@@ -2050,6 +2067,7 @@ const mezeler: Recipe[] = [
 },
   {
   "id": "icli-kofte",
+    description: "Bulgur kabuğunun baharatlı kıyma harcıyla doldurulduğu, işçiliği yüksek Güneydoğu Anadolu mezesi.",
   "title": "İçli Köfte",
   "mainCategory": "mezeler",
   "subCategory": "sicak-mezeler",

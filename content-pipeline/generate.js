@@ -108,6 +108,7 @@ async function main() {
 
 JSON Şeması:
 {
+  "description": "Tarifi 1-2 cümlede iştah açıcı şekilde tanıtan kısa Türkçe açıklama (ZORUNLU alan, boş bırakılamaz, örn: 'Kızartılmış patlıcanların kıymalı harçla doldurulup fırınlandığı, Türk mutfağının en sevilen klasik ev yemeği.')",
   "subCategoryLabel": "Alt kategorinin Türkçe adı (örn: 'Et ve Tavuk Yemekleri', 'Şerbetli Tatlılar', 'Çorbalar')",
   "region": "Varsa yöresel kökeni (örn: 'Gaziantep', 'Ege', 'Saray Mutfağı'), yoksa null",
   "prepTimeMinutes": hazırlama süresi (dakika cinsinden sayı),
@@ -235,6 +236,7 @@ JSON Şeması:
       const finalRecipe = {
         id: targetRecipe.id,
         title: targetRecipe.title,
+        description: parsedRecipe.description || undefined,
         mainCategory: targetRecipe.mainCategory,
         subCategory: targetRecipe.subCategory,
         subCategoryLabel: parsedRecipe.subCategoryLabel || targetRecipe.title,
@@ -252,6 +254,33 @@ JSON Şeması:
         calories: parsedRecipe.calories ? Number(parsedRecipe.calories) : undefined,
         imageUrl: `/images/recipes/${targetRecipe.id}.jpg`
       };
+
+      // d.1. ZORUNLU ALAN DOĞRULAMASI
+      // Recipe arayüzündeki tüm zorunlu (opsiyonel olmayan) alanların dolu olduğunu
+      // doğrula. Biri eksikse (örn. description hiç gelmemişse), bu tarifi asla
+      // varsayılan/boş bir değerle geçirip veri dosyasına yazma - hata fırlat, böylece
+      // bu tarif normal akışta 'hata' olarak işaretlenip bir sonraki çalıştırmada
+      // tekrar denenir. Bu, eksik-zorunlu-alan hatalarının üretim koduna kadar
+      // ulaşmasını (ve Vercel build'ini kırmasını) önler.
+      const REQUIRED_STRING_FIELDS = ['id', 'title', 'description', 'mainCategory', 'subCategory', 'subCategoryLabel', 'difficulty', 'imageUrl'];
+      const REQUIRED_NUMBER_FIELDS = ['prepTimeMinutes', 'cookTimeMinutes', 'totalTimeMinutes', 'servings'];
+      const REQUIRED_ARRAY_FIELDS = ['mainIngredients', 'tags', 'ingredientGroups', 'steps', 'tips'];
+
+      for (const field of REQUIRED_STRING_FIELDS) {
+        if (!finalRecipe[field] || typeof finalRecipe[field] !== 'string' || finalRecipe[field].trim() === '') {
+          throw new Error(`Zorunlu alan eksik veya boş: '${field}'`);
+        }
+      }
+      for (const field of REQUIRED_NUMBER_FIELDS) {
+        if (typeof finalRecipe[field] !== 'number' || Number.isNaN(finalRecipe[field])) {
+          throw new Error(`Zorunlu sayısal alan eksik veya geçersiz: '${field}'`);
+        }
+      }
+      for (const field of REQUIRED_ARRAY_FIELDS) {
+        if (!Array.isArray(finalRecipe[field]) || finalRecipe[field].length === 0) {
+          throw new Error(`Zorunlu dizi alanı eksik veya boş: '${field}'`);
+        }
+      }
 
       // e. İlgili TypeScript Veri Dosyasına Yazma
       const fileName = CATEGORY_FILE_MAP[targetRecipe.mainCategory];

@@ -167,6 +167,7 @@ const sogukYemekler: Recipe[] = [
   },
   {
   "id": "zeytinyagli-yaprak-sarmasi",
+    description: "Pirinç, çam fıstığı ve kuş üzümüyle doldurulan asma yapraklarının zeytinyağında soğuk servis edildiği zarif meze.",
   "title": "Zeytinyağlı Yaprak Sarması",
   "mainCategory": "soguk-yemekler",
   "subCategory": "zeytinyaglilar",
@@ -297,6 +298,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-barbunya-pilaki",
+    description: "Barbunya fasulyesinin havuç ve patatesle zeytinyağında pişirilip soğuk servis edildiği Ege usulü bir lezzet.",
   "title": "Zeytinyağlı Barbunya Pilaki",
   "mainCategory": "soguk-yemekler",
   "subCategory": "zeytinyaglilar",
@@ -412,6 +414,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-kereviz",
+    description: "Kereviz kökünün havuç ve portakalla zeytinyağında pişirildiği, hafif ve ferahlatıcı bir zeytinyağlı yemek.",
   "title": "Zeytinyağlı Kereviz",
   "mainCategory": "soguk-yemekler",
   "subCategory": "zeytinyaglilar",
@@ -519,6 +522,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-pirasa",
+    description: "Pırasanın pirinç ve havuçla zeytinyağında ağır ateşte pişirildiği, soğuk servis edilen sonbahar klasiği.",
   "title": "Zeytinyağlı Pırasa",
   "mainCategory": "soguk-yemekler",
   "subCategory": "zeytinyaglilar",
@@ -627,6 +631,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-sevketi-bostan",
+    description: "Yabani bir bitki olan şevketi bostanın bezelye ve havuçla zeytinyağında pişirildiği nadir bulunan bir lezzet.",
   "title": "Zeytinyağlı Şevketi Bostan",
   "mainCategory": "soguk-yemekler",
   "subCategory": "zeytinyaglilar",
@@ -733,6 +738,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-kabak-cicegi-dolmasi",
+    description: "Kabak çiçeklerinin pirinç ve baharatlı harçla doldurulduğu, zeytinyağlı soğuk dolmaların en zarifi.",
   "title": "Zeytinyağlı Kabak Çiçeği Dolması",
   "mainCategory": "soguk-yemekler",
   "subCategory": "zeytinyaglilar",
@@ -845,6 +851,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-yer-elmasi",
+    description: "Yer elmasının havuç ve limonla zeytinyağında pişirildiği, hafif ve az bilinen bir zeytinyağlı lezzet.",
   "title": "Zeytinyağlı Yer Elması",
   "mainCategory": "soguk-yemekler",
   "subCategory": "zeytinyaglilar",
@@ -961,6 +968,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-biber-dolmasi",
+    description: "Küçük yeşil biberlerin pirinç, kuş üzümü ve çam fıstığıyla doldurulduğu klasik zeytinyağlı dolma.",
   "title": "Zeytinyağlı Biber Dolması",
   "mainCategory": "soguk-yemekler",
   "subCategory": "dolma-sarma-soguk",
@@ -1100,6 +1108,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-lahana-sarmasi",
+    description: "Lahana yapraklarının pirinçli harçla sarılıp zeytinyağında pişirildiği, soğuk servis edilen bir sarma çeşidi.",
   "title": "Zeytinyağlı Lahana Sarması",
   "mainCategory": "soguk-yemekler",
   "subCategory": "dolma-sarma-soguk",
@@ -1255,6 +1264,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-pazi-sarmasi",
+    description: "Pazı yapraklarının pirinçli harçla doldurulup zeytinyağında pişirildiği hafif bir sarma lezzeti.",
   "title": "Zeytinyağlı Pazı Sarması",
   "mainCategory": "soguk-yemekler",
   "subCategory": "dolma-sarma-soguk",
@@ -1396,6 +1406,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "mercimek-koftesi",
+    description: "Kırmızı mercimek ve ince bulgurun soğan ve baharatla yoğrulup şekillendirildiği, hızlı hazırlanan vejetaryen bir meze.",
   "title": "Mercimek Köftesi",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",
@@ -1527,6 +1538,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "cilbir",
+    description: "Sarımsaklı yoğurt üzerine kaçırılmış yumurta ve kızdırılmış tereyağıyla servis edilen, Osmanlı mutfağından gelen doyurucu bir kahvaltı lezzeti.",
   "title": "Çılbır",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",
@@ -1645,6 +1657,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "saksuka",
+    description: "Kızartılmış patlıcan, kabak ve biberlerin sarımsaklı domates sosuyla buluştuğu, sıcak ya da soğuk servis edilen bir meze.",
   "title": "Şakşuka",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",
@@ -1763,6 +1776,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "zeytinyagli-bakla",
+    description: "Taze baklanın dereotuyla zeytinyağında pişirilip yoğurtla servis edildiği baharın müjdecisi bir lezzet.",
   "title": "Zeytinyağlı Bakla",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",
@@ -1885,6 +1899,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "piyaz",
+    description: "Beyaz fasulyenin soğan, domates ve haşlanmış yumurtayla harmanlandığı, hafif ve ferahlatıcı bir salata.",
   "title": "Piyaz",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",
@@ -2002,6 +2017,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "gavurdagi-salatasi",
+    description: "Domates ve salatalığın ceviz ve nar ekşisiyle buluştuğu, Güneydoğu Anadolu'nun canlı ve ferahlatıcı salatası.",
   "title": "Gavurdağı Salatası",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",
@@ -2121,6 +2137,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "coban-salatasi",
+    description: "Domates, salatalık, biber ve soğanın zeytinyağıyla buluştuğu, her sofrada bulunan basit ve taze bir salata.",
   "title": "Çoban Salatası",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",
@@ -2217,6 +2234,7 @@ const sogukYemekler: Recipe[] = [
 },
   {
   "id": "borulce-salatasi",
+    description: "Haşlanmış börülcenin soğan ve maydanozla zeytinyağında buluştuğu, hafif ve besleyici bir salata.",
   "title": "Börülce Salatası",
   "mainCategory": "soguk-yemekler",
   "subCategory": "salatalar",

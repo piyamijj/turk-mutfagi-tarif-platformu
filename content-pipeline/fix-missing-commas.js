@@ -86,6 +86,59 @@ async function main() {
         console.log(`\x1b[36m- ${fileName}: Herhangi bir sözdizimi/tip hatası bulunmadı.\x1b[0m`);
       }
 
+      // --- KONTROL 3: Eksik ZORUNLU alan taraması (otomatik düzeltilemez, sadece uyarı) ---
+      // "description" gibi zorunlu bir alan eksikse, bunu tahmini bir metinle
+      // doldurmak YANLIŞ olur (gerçek tarife uygun olmayabilir) - bu yüzden burada
+      // sadece HANGİ tarif id'lerinde description eksik olduğunu tespit edip
+      // ekrana Türkçe bir uyarı olarak yazıyoruz; gerçek içeriği elle veya
+      // flow session'a bildirerek eklemeniz gerekir.
+      //
+      // ÖNEMLİ: Bir önceki sürümdeki regex yaklaşımı ("\n  }" ile bloğun bittiğini
+      // varsaymak) iç içe geçmiş nesneler/diziler yüzünden güvenilir değildi ve
+      // bazı dosyalarda hiç eşleşme bulamıyordu. Bunun yerine parantez derinliği
+      // SAYARAK (basit bir "brace depth counter") her tarif nesnesinin GERÇEK
+      // başlangıç ve bitiş noktasını buluyoruz - bu, iç içe geçme seviyesi ne
+      // olursa olsun doğru çalışır.
+      const missingDescriptionIds = [];
+      const idPattern = /["']?id["']?\s*:\s*"([a-z0-9-]+)"/g;
+      let idMatch;
+      while ((idMatch = idPattern.exec(updatedContent)) !== null) {
+        const id = idMatch[1];
+        // Bu id eşleşmesinden başlayarak, id'den önceki en yakın "{" karakterini bul
+        // (bu tarif nesnesinin gerçek başlangıcı).
+        let objStart = updatedContent.lastIndexOf('{', idMatch.index);
+        if (objStart === -1) continue;
+
+        // objStart'tan itibaren parantez derinliğini sayarak nesnenin bittiği
+        // noktayı (eşleşen kapanış "}") bul.
+        let depth = 0;
+        let objEnd = -1;
+        for (let i = objStart; i < updatedContent.length; i++) {
+          const ch = updatedContent[i];
+          if (ch === '{') depth++;
+          else if (ch === '}') {
+            depth--;
+            if (depth === 0) {
+              objEnd = i;
+              break;
+            }
+          }
+        }
+        if (objEnd === -1) continue;
+
+        const objectBlock = updatedContent.substring(objStart, objEnd + 1);
+        const hasDescription = /["']?description["']?\s*:/.test(objectBlock);
+        if (!hasDescription) {
+          missingDescriptionIds.push(id);
+        }
+      }
+
+      if (missingDescriptionIds.length > 0) {
+        console.log(`\x1b[33m⚠ ${fileName}: 'description' alanı eksik olan tarifler (elle eklenmeli): ${missingDescriptionIds.join(', ')}\x1b[0m`);
+      } else {
+        console.log(`\x1b[36m- ${fileName}: Tüm tariflerde 'description' alanı mevcut.\x1b[0m`);
+      }
+
     } catch (err) {
       console.error(`\x1b[31m✗ ${fileName} işlenirken hata oluştu: ${err.message}\x1b[0m`);
     }
