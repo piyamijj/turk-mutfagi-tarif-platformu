@@ -174,7 +174,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tahin",
           "amount": "1/2 su bardağı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -199,12 +198,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Kimyon",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     },
@@ -214,12 +211,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Toz kırmızı biber",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Maydanoz",
@@ -238,7 +233,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Nohutların üzerine tahin, ezilmiş sarımsak, limon suyu, zeytinyağı, kimyon ve tuzu ekleyip robottan geçirmeye devam edin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -248,12 +242,10 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Hazırladığınız humusu geniş bir servis tabağına yayın ve kaşığın arkasıyla ortasına hafif bir çukur açın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Küçük bir tavada zeytinyağı ve toz kırmızı biberi hafifçe ısıtıp humusun üzerine gezdirin, kıyılmış maydanozla süsleyin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -309,12 +301,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Acı Biber Salçası",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Domates Salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Ekmek Kırıntısı",
@@ -329,7 +319,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Nar Ekşisi",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -339,12 +328,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Kimyon",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -358,12 +345,10 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Biber salçası, domates salçası, ekmek kırıntısı, kimyon ve pul biberi ekleyip tekrar robottan geçirin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Zeytinyağı ve nar ekşisini ilave edip kaşıkla homojen bir kıvam alana kadar karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -452,12 +437,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -476,12 +459,10 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Kıyılan patlıcan ve biberleri karıştırma kabına alın; üzerine domates, yeşil biber, sarımsak ve maydanozu ekleyin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Zeytinyağı, nar ekşisi, tuz ve pul biberi ilave edip karıştırın, servis tabağına yayın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -556,7 +537,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -575,17 +555,14 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Soyduğunuz patlıcan ve biberleri bıçakla ince ince kıyın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Geniş bir kapta kıyılan sebzeleri, ezilmiş sarımsağı, zeytinyağını, limon suyunu ve tuzu karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Salatayı servis tabağına alın, üzerine ince kıyılmış maydanoz gezdirip servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -655,7 +632,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Süzme Yoğurt",
           "amount": "1,5 su bardağı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -665,7 +641,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     },
@@ -680,7 +655,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -690,7 +664,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz ve Karabiber",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -704,22 +677,18 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Kızgın sıvı yağda önce biberleri, ardından patlıcanları altın sarısı olana kadar kızartın ve fazla yağını süzdürmek için havlu kağıda alın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Sos tavasında zeytinyağı ile sarımsağı soteleyin, rendelenmiş domates, tuz ve karabiberi ekleyip sos suyunu çekene kadar pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Süzme yoğurdu ezilmiş sarımsak ve tuz ile çırpıp servis tabağının tabanına yayın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Kızarmış sebzeleri yoğurdun üzerine dökün, en üste ılık domates sosunu gezdirerek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -779,7 +748,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Süzme Yoğurt",
           "amount": "3 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
@@ -794,7 +762,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Soğuk Su",
@@ -813,7 +780,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Kabın içine ezilmiş sarımsak, çekilmiş ceviz ve süzme yoğurdu ekleyin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -823,7 +789,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Kıvamı fazla koyu olursa kaşık kaşık soğuk su ekleyerek istediğiniz kremsi dokuyu yakalayın ve servis tabağına alın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -864,7 +829,6 @@ const mezeler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Kuru Bakla",
@@ -884,7 +848,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Sıcak Su",
           "amount": "4 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -894,12 +857,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Dereotu",
@@ -918,12 +879,10 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tencereye zeytinyağını alın, doğranmış soğanları ekleyip pembeleşinceye kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Süzülen baklaları, şekeri, tuzu, limon suyunu ve sıcak suyu tencereye ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -933,7 +892,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Pişen karışımı ocaktan alın ve pürüzsüz bir kıvam alana kadar el blenderı ile ezin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
@@ -943,7 +901,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 7,
       "instruction": "Oda sıcaklığına geldikten sonra buzdolabında en az 4 saat dinlendirin, dilimleyerek kalan dereotu ve zeytinyağı ile servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -982,7 +939,6 @@ const mezeler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Deniz Börülcesi",
@@ -1031,7 +987,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Ayıklanmış börülceleri servis tabağına alın. Ayrı bir kasede zeytinyağı, limon suyu ve ezilmiş sarımsağı çırpıp üzerine gezdirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1071,7 +1026,6 @@ const mezeler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Yoğurt",
@@ -1091,7 +1045,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Soğuk su",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
@@ -1101,7 +1054,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Kuru nane",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Taze dereotu",
@@ -1111,7 +1063,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -1125,22 +1076,18 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Derin bir kapta yoğurt, ezilmiş sarımsak ve tuzu çırparak pürüzsüz kıvama getirin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Soğuk suyu azar azar ekleyip karıştırarak yoğurdun kıvamını açın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Doğranmış salatalıkları ve kıyılmış dereotunu ekleyip hafifçe karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Cacığı servis kaselerine alın; üzerine zeytinyağı gezdirip kuru nane serperek soğuk servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1194,12 +1141,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     },
@@ -1214,12 +1159,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Toz Kırmızı Biber",
@@ -1238,7 +1181,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Hazırladığınız yoğurt karışımını yayvan bir servis tabağına alın ve kaşığın arkasıyla ortasını hafifçe çukurlaştırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1248,7 +1190,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Ocaktan almadan önce toz kırmızı biberi ekleyip karıştırın ve kızgın acı yağı yoğurdun üzerine dökerek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1290,7 +1231,6 @@ const mezeler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Ezine Peyniri",
@@ -1344,17 +1284,14 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Ezilmiş sarımsak, ince kıyılmış taze fesleğen, iri çekilmiş Antep fıstığı ve cevizi ekleyin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Sızma zeytinyağını ve karabiberi ilave ederek tüm malzemeyi pürüzsüz ama dokulu bir kıvam alana kadar karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Ezmeyi servis tabağına alıp üzerini kaşığın arkasıyla düzeltin; üzerine ekstra zeytinyağı gezdirip bütün fıstıklarla süsleyerek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1436,7 +1373,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "1 çay bardağı",
-          "note": null
         },
         {
           "item": "Nar Ekşisi",
@@ -1446,22 +1382,18 @@ const mezeler: Recipe[] = [
         {
           "item": "Biber Salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuru Nane",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -1475,22 +1407,18 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Patlıcanları alacalı soyup iri küpler halinde doğrayın ve acısının çıkması için tuzlu suda 15 dakika bekletin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Bir kasede doğranmış soğan, domates, biber, sarımsak ve haşlanmış mercimekleri karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Ayrı bir kapta zeytinyağı, nar ekşisi, biber salçası, kuru nane ve baharatları çırparak sos hazırlayın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Tencereye sırasıyla patlıcanları ve mercimekli sebze karışımını kat kat dizip üzerine hazırladığınız sosu gezdirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
@@ -1544,7 +1472,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Süzme Yoğurt",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Ceviz İçi",
@@ -1554,7 +1481,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "3 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -1569,7 +1495,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     },
@@ -1579,7 +1504,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Ceviz İçi",
@@ -1589,7 +1513,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Kuru Nane",
           "amount": "0.5 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -1598,12 +1521,10 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 1,
       "instruction": "Rendelenmiş kabakların avucunuzla suyunu hafifçe sıkın.",
-      "tip": null
     },
     {
       "stepNumber": 2,
       "instruction": "Tavada zeytinyağını kızdırıp kabakları suyunu çekip yumuşayana kadar soteleyin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1613,17 +1534,14 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Ayrı bir kapta süzme yoğurt, sarımsak, ince kıyılmış ceviz, dereotu ve tuzu karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Soğuyan kabakları yoğurtlu karışıma ekleyip güzelce harmanlayın ve servis tabağına alın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Küçük bir tavada zeytinyağında iri cevizleri ve naneyi çevirip mezenin üzerine gezdirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1673,12 +1591,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Un",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Kırmızı toz biber",
@@ -1688,7 +1604,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Kimyon",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Sıvı yağ",
@@ -1718,7 +1633,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Sumak",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -1732,7 +1646,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Patatesleri küp doğrayıp kızgın yağda altın sarısı olana kadar kızartın ve servis kabına alın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1747,7 +1660,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Piyazlık doğranmış soğanları sumak ve kıyılmış maydanoz ile hafifçe ovun. Kızaran ciğer ve patateslerle harmanlayıp sıcak servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1818,7 +1730,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Karabiber",
@@ -1857,12 +1768,10 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Kuruladığınız karidesleri tavaya ilave edin ve yüksek ateşte her iki tarafını pembeleşene kadar 3-4 dakika kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Tuz, karabiber ve limon suyunu ekleyip karıştırın, ocaktan almadan önce kıyılmış maydanozu serperek sıcak servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1914,12 +1823,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Karbonat",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -1939,12 +1846,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Un",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Sıvı Yağ",
@@ -1969,7 +1874,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Süzme Yoğurt",
           "amount": "3 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -1979,12 +1883,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
           "amount": "1 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -1998,17 +1900,14 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Yumuşayan kalamarların üzerine maden suyunu dökün ve üzerini kapatıp buzdolabında en az 1 saat dinlendirin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Tarator sos için ekmek içi, ceviz, sarımsak, süzme yoğurt, zeytinyağı ve limon suyunu mutfak robotunda pürüzsüz kıvam alana kadar çekin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Marine olan kalamarları süzün ama kesinlikle yıkamayın. Bir kapta un ve tuzu karıştırıp kalamarları un karışımına bulayın, fazlasını silkeleyin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -2018,7 +1917,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Kızaran kalamarları kağıt havlu üzerine alıp fazla yağını süzdürün ve yanında tarator sos ile sıcak servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2069,7 +1967,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tahin",
           "amount": "1/2 su bardağı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -2084,17 +1981,14 @@ const mezeler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "3 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kimyon",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
@@ -2109,7 +2003,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Pastırma",
@@ -2119,7 +2012,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Toz Kırmızı Biber",
           "amount": "1/2 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -2133,17 +2025,14 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Malzemeleri pürüzsüz bir krema kıvamına gelene kadar robotta çekin; çok koyu olursa azar azar sıcak su ekleyin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Hazırladığınız humusu güveç kabına eşit şekilde yayın ve önceden 200 dereceye ısıtılmış fırında 10-12 dakika ısıtın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Küçük bir tavada tereyağını eritin, pastırmaları hafifçe kavurup kırmızı biberi ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -2193,12 +2082,10 @@ const mezeler: Recipe[] = [
         {
           "item": "İnce Köftelik Bulgur",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "İrmik",
           "amount": "1/2 su bardağı",
-          "note": null
         },
         {
           "item": "Yağsız Dana Kıyma",
@@ -2208,12 +2095,10 @@ const mezeler: Recipe[] = [
         {
           "item": "Biber Salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Un",
           "amount": "1/2 su bardağı",
-          "note": null
         },
         {
           "item": "Ilık Su",
@@ -2228,7 +2113,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Orta Yağlı Kıyma",
           "amount": "350 gram",
-          "note": null
         },
         {
           "item": "Kuru Soğan",
@@ -2238,7 +2122,6 @@ const mezeler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Ceviz İçi",
@@ -2262,7 +2145,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Dış hamur için bulgur ve irmiği ılık suyla ıslatıp 10 dakika bekletin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -2272,7 +2154,6 @@ const mezeler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Hamurdan ceviz büyüklüğünde parçalar alıp başparmağınızla ortasını açarak duvarlarını incecik şekillendirin.",
-      "tip": null
     },
     {
       "stepNumber": 5,

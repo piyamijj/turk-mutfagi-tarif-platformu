@@ -213,12 +213,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -258,7 +256,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Antep Fıstığı",
           "amount": "2 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -292,7 +289,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Sıcak künefenin üzerine ılık şerbeti dökün. Antep fıstığı serperek sıcak servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -337,12 +333,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -362,12 +356,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Pudra Şekeri",
           "amount": "1 çay bardağı",
-          "note": null
         },
         {
           "item": "İrmik",
           "amount": "1 çay bardağı",
-          "note": null
         },
         {
           "item": "Yumurta",
@@ -382,12 +374,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Kabartma Tozu",
           "amount": "1 paket",
-          "note": null
         },
         {
           "item": "Vanilin",
           "amount": "1 paket",
-          "note": null
         },
         {
           "item": "Fındık",
@@ -411,17 +401,14 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Hamurdan ceviz büyüklüğünde parçalar koparıp yuvarlayın ve yağlanmış tepsiye dizin. Ortalarına birer fındık bastırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Ayrılan yumurta sarısını hamurların üzerine sürün. Önceden ısıtılmış 180 derece fırında 25 dakika kızarana kadar pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Fırından çıkan sıcak tatlının üzerine soğuk şerbeti dökün ve şerbeti çekmesi için en az 2 saat dinlendirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -467,12 +454,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -492,7 +477,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 çay bardağı",
-          "note": null
         },
         {
           "item": "Yoğurt",
@@ -502,12 +486,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Sıvı Yağ",
           "amount": "1 çay bardağı",
-          "note": null
         },
         {
           "item": "İrmik",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Un",
@@ -517,12 +499,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Kabartma Tozu",
           "amount": "1 paket",
-          "note": null
         },
         {
           "item": "Vanilin",
           "amount": "1 paket",
-          "note": null
         },
         {
           "item": "Limon Kabuğu",
@@ -537,12 +517,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Hindistan Cevizi",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Toz Antep Fıstığı",
           "amount": "2 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -556,12 +534,10 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Karıştırma kabında yumurta ve şekeri beyazlaşıp köpürene kadar mikserle çırpın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Sıvı yağ, yoğurt ve rendelenmiş limon kabuğunu ekleyip çırpmaya devam edin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -571,12 +547,10 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Harç malzemesini yağlanmış borcama dökün ve önceden ısıtılmış 180 derece fırında üzeri kızarana kadar yaklaşık 30 dakika pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Fırından çıkan sıcak kekin ilk sıcaklığı geçince (2-3 dakika) soğuk şerbeti üzerine dökün. Şerbeti çekip soğuyunca dilimleyip süsleyerek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -622,12 +596,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -647,12 +619,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Su",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Tereyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Yumurta",
@@ -662,17 +632,14 @@ const tatlilar: Recipe[] = [
         {
           "item": "Mısır Nişastası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "İrmik",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çimdik",
-          "note": null
         }
       ]
     },
@@ -696,7 +663,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Su, tereyağı ve tuzu tencerede kaynatın. Unu birden ekleyip helva kıvamına gelene kadar karıştırarak 4-5 dakika pişirin ve ılımaya bırakın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -711,12 +677,10 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Tencereyi ocağa alıp orta ateşte tulumbalar kabarıp altın sarısı kızarana kadar ara sıra karıştırarak pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Kızaran sıcak tulumbaları kevgirle alıp doğrudan soğuk şerbetin içine atın. 2-3 dakika şerbeti çekmesini bekleyip servis tabağına alın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -765,7 +729,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Yumurta",
           "amount": "2 adet",
-          "note": null
         },
         {
           "item": "Tereyağı",
@@ -775,17 +738,14 @@ const tatlilar: Recipe[] = [
         {
           "item": "İrmik",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Un",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Kabartma tozu",
           "amount": "1 paket",
-          "note": null
         }
       ]
     },
@@ -795,17 +755,14 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz şeker",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "3.5 su bardağı",
-          "note": null
         },
         {
           "item": "Limon suyu",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -819,22 +776,18 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "İrmik, un ve kabartma tozunu ekleyip ele yapışmayan yumuşak bir hamur yoğurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Hamurdan ceviz büyüklüğünde parçalar koparıp yuvarlayın ve yağlı kağıt serili tepsiye dizin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Önceden ısıtılmış 180 derece fırında üzerileri pembeleşip pişene kadar yaklaşık 25 dakika fırınlayın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Şerbet için su ve şekeri geniş bir tencerede kaynatın, ardından limon suyunu ekleyin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
@@ -882,12 +835,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "4 su bardağı",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "4 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -902,7 +853,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Taze Tel Kadayıf",
           "amount": "500 gram",
-          "note": null
         },
         {
           "item": "Tereyağı",
@@ -926,12 +876,10 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Eritilmiş tereyağının üzerindeki köpüğü ve dibindeki tortuyu süzün. Kadayıfları tel tel ayırıp havalandırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Süzülmüş tereyağını kadayıfların üzerine gezdirip yağı iyice yedirin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -941,22 +889,18 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "İri çekilmiş ceviz içini ortasına eşit şekilde yayın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Kalan kadayıfı üstüne serip tekrar kuvvetlice bastırarak sıkıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 7,
       "instruction": "Önceden ısıtılmış 180 derece fırında üzeri ve altı kızarana kadar yaklaşık 35-40 dakika pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 8,
       "instruction": "Fırından çıkan sıcak kadayıfın üzerine soğuk şerbeti gezdirin. Şerbetini çekmesi için 2 saat dinlendirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1001,12 +945,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "3 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -1026,17 +968,14 @@ const tatlilar: Recipe[] = [
         {
           "item": "Sıvy Yağ",
           "amount": "1/2 çay bardağı",
-          "note": null
         },
         {
           "item": "Yoğurt",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "İrmik",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Un",
@@ -1046,7 +985,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Kabartma Tozu",
           "amount": "1/2 paket",
-          "note": null
         }
       ]
     },
@@ -1070,7 +1008,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Oda sıcaklığındaki tereyağı, sıvı yağ, yoğurt ve irmiği karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1080,22 +1017,18 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Hamurdan ceviz büyüklüğünde parçalar koparıp kalbur veya rende üzerine bastırarak açın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Ortasına iri kıyılmış ceviz koyup kenarlarını ortada birleştirerek kapatın ve ters çevirip tepsiye dizin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Önceden ısıtılmış 180 derece fırında üzerileri altı altın sarısı olana kadar yaklaşık 25 dakika pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 7,
       "instruction": "Fırından çıkan sıcak tatlının üzerine soğuk şerbeti gezdirin ve şerbeti çekene kadar en az 2 saat dinlendirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1134,7 +1067,6 @@ const tatlilar: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Süt",
@@ -1154,17 +1086,14 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Mısır Nişastası",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Vanilya",
           "amount": "1 paket",
-          "note": null
         },
         {
           "item": "Yumurta Sarısı",
@@ -1183,7 +1112,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Haşlanan pirincin üzerine sütü ve vanilyayı ilave edip karıştırarak kaynamaya bırakın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1193,17 +1121,14 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Kaynayan sütten bir kepçe alıp nişastalı karışıma ekleyerek ılıtın, ardından tencereye yavaşça dökün.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Toz şekeri ekleyin ve koyulaşana kadar yaklaşık 10-15 dakika kısık ateşte pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Hazırladığınız sütlacı ısıya dayanıklı fırın kaplarına paylaştırın.",
-      "tip": null
     },
     {
       "stepNumber": 7,
@@ -1267,27 +1192,22 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz şeker",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Pirinç unu",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Mısır nişastası",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tereyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Vanilin",
           "amount": "1 paket",
-          "note": null
         }
       ]
     }
@@ -1306,17 +1226,14 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Hazırladığınız ince tavuk liflerini tencereye ekleyin ve mikser yardımıyla 5-10 dakika çırparak tatlının lifli, uzayan bir kıvam almasını sağlayın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Tereyağı ve vanilini ilave edip son kez karıştırın, ıslatılmış tepsiye dökün ve oda sıcaklığında soğutun.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Buzdolabında en az 4 saat dinlendirdikten sonra üzerine tarçın serperek dilimleyip servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1366,7 +1283,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Toz Badem",
@@ -1376,22 +1292,18 @@ const tatlilar: Recipe[] = [
         {
           "item": "Pirinç Unu",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Buğday Nişastası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Yumurta Sarısı",
           "amount": "1 adet",
-          "note": null
         },
         {
           "item": "Rendelenmiş Hindistan Cevizi",
           "amount": "2 yemek kaşığı",
-          "note": null
         }
       ]
     },
@@ -1401,7 +1313,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Antep Fıstığı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "File Badem",
@@ -1425,17 +1336,14 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Kaynamaya başladıktan sonra ocağın altını kısın ve 2-3 dakika daha karıştırarak pişirip ocaktan alın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Sıcak keşkülü kâselere paylaştırın ve oda sıcaklığına geldikten sonra buzdolabına kaldırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Buzdolabında en az 2 saat soğuttuktan sonra üzerini toz antep fıstığı ve file badem ile süsleyerek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1475,7 +1383,6 @@ const tatlilar: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Süt",
@@ -1485,17 +1392,14 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz şeker",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Pirinç unu",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Buğday nişastası",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tereyağı",
@@ -1505,7 +1409,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Vanilin",
           "amount": "1 paket",
-          "note": null
         },
         {
           "item": "Toz antep fıstığı",
@@ -1534,17 +1437,14 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Kaynayıp göz göz olunca ateşi kısın; tereyağı ve vanilini ekleyip 2 dakika daha karıştırıp ocaktan alın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Muhallebiyi servis kaselerine eşit şekilde paylaştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Oda sıcaklığına gelince buzdolabına kaldırın, en az 2 saat soğuttuktan sonra tarçın ve antep fıstığı ile süsleyerek servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1589,7 +1489,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Güllaç Yaprağı",
           "amount": "10 adet",
-          "note": null
         },
         {
           "item": "Süt",
@@ -1599,7 +1498,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Gül Suyu",
@@ -1619,12 +1517,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Nar Taneleri",
           "amount": "0.5 su bardağı",
-          "note": null
         },
         {
           "item": "Toz Antep Fıstığı",
           "amount": "2 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -1638,7 +1534,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Ilık süte gül suyunu ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1648,22 +1543,18 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Orta kata iri çekilmiş ceviz içini eşit şekilde serpin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Kalan yaprakları da aynı şekilde sütle ıslatarak üst üste dizin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Kalan sütü tatlının üzerine gezdirip oda sıcaklığında soğumaya bırakın.",
-      "tip": null
     },
     {
       "stepNumber": 7,
       "instruction": "Buzdolabında 2 saat dinlendirdikten sonra nar ve antep fıstığı ile süsleyip dilimleyerek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1713,7 +1604,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Un",
@@ -1728,7 +1618,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Yumurta Sarısı",
           "amount": "1 adet",
-          "note": null
         },
         {
           "item": "Bitter Çikolata",
@@ -1738,7 +1627,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Buzlu Su",
@@ -1777,7 +1665,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Kaynayan tatlıyı ocaktan alın; bitter çikolata ve tereyağını ekleyip eriyene kadar karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -1787,7 +1674,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Kase tabanlarına birer dilim kek yerleştirin, üzerlerine supangleyi paylaştırın ve buzdolabında soğutun.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1841,7 +1727,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1.5 su bardağı",
-          "note": null
         }
       ]
     },
@@ -1851,7 +1736,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "İrmik",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Tereyağı",
@@ -1861,12 +1745,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Sıvı Yağ",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Çam Fıstığı",
           "amount": "2 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -1880,7 +1762,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir tencerede tereyağı ve sıvı yağı eritin. Çam fıstıklarını ekleyip hafifçe pembeleşene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1895,12 +1776,10 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Sürekli karıştırarak irmik şerbeti çekene kadar kısık ateşte pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Tencerenin kapağını kapatın, üzerine havlu kağıt serip 15 dakika demlenmeye bırakın. Ilık servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1945,7 +1824,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Süt",
@@ -1970,12 +1848,10 @@ const tatlilar: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "100 gram",
-          "note": null
         },
         {
           "item": "Sıvı Yağ",
           "amount": "0.5 çay bardağı",
-          "note": null
         }
       ]
     }
@@ -1989,7 +1865,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir tencerede tereyağını eritin ve sıvı yağı ekleyin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -2004,7 +1879,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Helva şerbeti tamamen çekip tencerenin kenarlarından ayrılana kadar karıştırmaya devam edin, ardından ocaktan alıp kaşıkla şekil verin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2042,7 +1916,6 @@ const tatlilar: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Balkabağı",
@@ -2076,7 +1949,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Toz şekeri kabakların üzerine eşit şekilde gezdirin. Tencerenin kapağını kapatıp kabakların suyunu salması için en az 3 saat (tercihen 1 gece) bekletin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -2086,17 +1958,14 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Kabaklar yumuşayınca tencerenin kapağını açın ve şerbetin koyulaşıp karamelize olması için kısık ateşte 10-15 dakika daha pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Pişen tatlıyı ocaktan alın ve oda sıcaklığında tamamen soğumaya bırakın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Soğuyan kabak tatlısını servis tabağına alın. Üzerine tahin gezdirip iri kıyılmış ceviz içi serperek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2151,17 +2020,14 @@ const tatlilar: Recipe[] = [
         {
           "item": "Karanfil",
           "amount": "5-6 adet",
-          "note": null
         },
         {
           "item": "Çubuk tarçın",
           "amount": "1 adet",
-          "note": null
         },
         {
           "item": "Su",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Limon suyu",
@@ -2176,7 +2042,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Manda kaymağı",
           "amount": "100 gram",
-          "note": null
         },
         {
           "item": "Toz antep fıstığı",
@@ -2195,7 +2060,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir tencereye ayvaları oyuk kısımları yukarı bakacak şekilde dizin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -2205,7 +2069,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Her bir ayva yarısının üzerine şekeri paylaştırın ve suyu tencerenin kenarından dökün.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -2215,7 +2078,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Oda sıcaklığına gelen ayvaları servis tabağına alın, üzerlerine kaymak ve antep fıstığı koyarak servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2286,7 +2148,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Kuru üzüm",
           "amount": "1/2 su bardağı",
-          "note": null
         },
         {
           "item": "Toz şeker",
@@ -2311,7 +2172,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Nar taneleri",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Ceviz içi",
@@ -2326,7 +2186,6 @@ const tatlilar: Recipe[] = [
         {
           "item": "Tarçın",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -2340,17 +2199,14 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Yumuşayan buğdayın üzerine haşlanmış nohut ve kuru fasulyeyi ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Küp doğranmış kuru kayısı, kuru üzüm ve süzülmüş karanfil suyunu tencereye ilave edin, 15 dakika kısık ateşte pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Toz şekeri ekleyip şeker tamamen eriyene ve tatlı kıvam alana kadar karıştırarak 10 dakika daha kaynatın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -2360,7 +2216,6 @@ const tatlilar: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Aşureyi kaselere paylaştırın, ılındıktan sonra nar, ceviz, fındık ve tarçın ile süsleyip servis yapın.",
-      "tip": null
     }
   ],
   "tips": [

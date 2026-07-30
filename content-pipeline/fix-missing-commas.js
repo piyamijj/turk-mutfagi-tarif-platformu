@@ -40,25 +40,50 @@ async function main() {
       let fileContent = fs.readFileSync(filePath, 'utf8');
       let fixCount = 0;
 
+      // --- DÜZELTME 1: Eksik virgüller ---
       // Regex Açıklaması:
       // ^(\s*\})  -> Satır başındaki kapatan süslü parantez (ve önündeki boşluklar)
       // (\s*\n\s*) -> Aradaki boşluklar, satır sonu ve yeni satır boşlukları
       // (\{)       -> Yeni açılan süslü parantez
       // g (global) ve m (multiline) bayrakları ile tüm dosyada eşleşme aranır.
       // Eşleşen yerlerin arasına virgül yerleştirilir: $1,$2$3
-      const regex = /^(\s*\})(\s*\n\s*)(\{)/gm;
+      const commaRegex = /^(\s*\})(\s*\n\s*)(\{)/gm;
+      let commaFixCount = 0;
 
-      const updatedContent = fileContent.replace(regex, (match, p1, p2, p3) => {
-        fixCount++;
+      let updatedContent = fileContent.replace(commaRegex, (match, p1, p2, p3) => {
+        commaFixCount++;
         return `${p1},${p2}${p3}`;
       });
 
+      // --- DÜZELTME 2: "alan": null şeklindeki değerleri kaldır ---
+      // Recipe TypeScript arayüzü opsiyonel alanlar (note/tip/groupTitle/region/calories)
+      // için `string | undefined` bekliyordu (artık `string | null | undefined` kabul ediyor,
+      // ama generate.js'in ürettiği ESKİ null değerlerini de temizleyip en sağlam hale getirelim).
+      // Regex, bir satırdaki `"alanAdi": null` (virgüllü veya virgülsüz) kalıbını bulup
+      // TÜM satırı (başındaki girinti ve varsa satır sonu virgülüyle birlikte) siler.
+      // Bu, JSON.stringify'ın undefined alanları hiç yazmamasıyla aynı sonucu üretir.
+      const nullFieldRegex = /^[ \t]*"[a-zA-Z]+"\s*:\s*null\s*,?\s*\n/gm;
+      let nullFixCount = 0;
+
+      updatedContent = updatedContent.replace(nullFieldRegex, (match) => {
+        nullFixCount++;
+        return '';
+      });
+
+      // Not: Bir grup/dizinin İLK elemanı silinirse ve bir sonraki satır zaten
+      // virgülle bitiyorsa sözdizimi sorunu oluşmaz çünkü sildiğimiz satırın kendi
+      // virgülü zaten kaldırılıyor; ama eğer silinen alan bir nesnenin SON alanıysa
+      // ve öncesindeki alan virgülle bitiyorsa (trailing comma before `}`), bu da
+      // modern TS/JS'de geçerlidir (trailing comma desteklenir), ek işlem gerekmez.
+
+      fixCount = commaFixCount + nullFixCount;
+
       if (fixCount > 0) {
         fs.writeFileSync(filePath, updatedContent, 'utf8');
-        console.log(`\x1b[32m✓ ${fileName}: ${fixCount} adet eksik virgül başarıyla düzeltildi.\x1b[0m`);
+        console.log(`\x1b[32m✓ ${fileName}: ${commaFixCount} eksik virgül + ${nullFixCount} geçersiz 'null' alanı düzeltildi.\x1b[0m`);
         totalFixes += fixCount;
       } else {
-        console.log(`\x1b[36m- ${fileName}: Herhangi bir sözdizimi hatası (eksik virgül) bulunmadı.\x1b[0m`);
+        console.log(`\x1b[36m- ${fileName}: Herhangi bir sözdizimi/tip hatası bulunmadı.\x1b[0m`);
       }
 
     } catch (err) {

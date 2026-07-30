@@ -15,13 +15,21 @@ export interface Ingredient {
   item: string;
   /** Human-readable measurement/amount (e.g., "2 su bardağı", "500 gram", "1 yemek kaşığı") */
   amount: string;
-  /** Optional preparation note (e.g., "ince kıyılmış", "oda sıcaklığında", "kabuğu soyulmuş") */
-  note?: string;
+  /**
+   * Optional preparation note (e.g., "ince kıyılmış", "oda sıcaklığında", "kabuğu soyulmuş").
+   * Widened to accept `null` in addition to `undefined`/omitted: the content-generation
+   * script (content-pipeline/generate.js) may write a literal JSON `null` for empty optional
+   * fields returned by the AI, and TypeScript would otherwise reject `null` here.
+   */
+  note?: string | null;
 }
 
 export interface IngredientGroup {
-  /** Optional title for grouping ingredients (e.g., "Köfte Harcı İçin", "Sosu İçin", "Üzeri İçin") */
-  groupTitle?: string;
+  /**
+   * Optional title for grouping ingredients (e.g., "Köfte Harcı İçin", "Sosu İçin", "Üzeri İçin").
+   * Widened to accept `null` for the same reason as `Ingredient.note` above.
+   */
+  groupTitle?: string | null;
   /** List of ingredients belonging to this group */
   items: Ingredient[];
 }
@@ -31,8 +39,11 @@ export interface RecipeStep {
   stepNumber: number;
   /** Detailed instruction in Turkish using active verbs (e.g., "Soğanları pembeleşene kadar soteleyin.") */
   instruction: string;
-  /** Optional chef's tip specific to this step (e.g., "Kısık ateşte pişirmek lezzeti artıracaktır.") */
-  tip?: string;
+  /**
+   * Optional chef's tip specific to this step (e.g., "Kısık ateşte pişirmek lezzeti artıracaktır.").
+   * Widened to accept `null` for the same reason as `Ingredient.note` above.
+   */
+  tip?: string | null;
 }
 
 export interface Recipe {
@@ -48,8 +59,11 @@ export interface Recipe {
   subCategory: string;
   /** Display label of the subcategory in Turkish (e.g., "Et Yemekleri", "Şerbetli Tatlılar") */
   subCategoryLabel: string;
-  /** Regional origin or historical note (e.g., "Saray Mutfağı", "Gaziantep", "Ege") */
-  region?: string;
+  /**
+   * Regional origin or historical note (e.g., "Saray Mutfağı", "Gaziantep", "Ege").
+   * Widened to accept `null` for the same reason as `Ingredient.note` above.
+   */
+  region?: string | null;
   /** Preparation time in minutes */
   prepTimeMinutes: number;
   /** Cooking time in minutes */
@@ -70,8 +84,11 @@ export interface Recipe {
   steps: RecipeStep[];
   /** General tips, serving suggestions, variations, or storage advice */
   tips: string[];
-  /** Optional estimated calories per serving */
-  calories?: number;
+  /**
+   * Optional estimated calories per serving.
+   * Widened to accept `null` for the same reason as `Ingredient.note` above.
+   */
+  calories?: number | null;
   /** Path to the AI-generated recipe image (e.g., "/images/recipes/hunkar-begendi.jpg") */
   imageUrl: string;
   /** Flag to feature this recipe on the home page hero/carousel */

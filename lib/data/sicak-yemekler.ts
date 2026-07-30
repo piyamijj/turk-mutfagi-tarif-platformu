@@ -263,17 +263,14 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Domates Salçası",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz ve Karabiber",
           "amount": "1'er çay kaşığı",
-          "note": null
         },
         {
           "item": "Maydanoz",
@@ -288,17 +285,14 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Domates Salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "0.5 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -312,27 +306,22 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Kızgın yağda patlıcanların her tarafını hafifçe kızartın ve fırın kabına dizin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Tavada zeytinyağında soğan, biber ve sarımsakları kavurun. Kıymayı ekleyip suyunu çekene kadar pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Salçayı, domatesleri, tuz ve karabiberi ekleyip 5 dakika pişirin. Ocaktan alıp kıyılmış maydanozu karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Patlıcanların ortalarını uzunlamasına yararak açın ve hazırladığınız kıymalı harcı içlerine eşitçe doldurun.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Salça, sıcak su ve tuzu karıştırıp fırın kabının tabanına dökün. Önceden ısıtılmış 190°C fırında 25-30 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -391,7 +380,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Yumurta",
           "amount": "1 adet",
-          "note": null
         },
         {
           "item": "Maydanoz",
@@ -401,7 +389,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tuz, karabiber, kimyon",
           "amount": "1'er tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -426,12 +413,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Domates salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak su",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Sıvı yağ",
@@ -450,7 +435,6 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Harçtan ceviz büyüklüğünde parçalar koparıp parmak şeklinde oval köfteler hazırlayın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -460,17 +444,14 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Kızaran patates ve köfteleri fırın tepsisine sırayla dizin. Üzerlerine domates ve biber dilimlerini yerleştirin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Salçayı sıcak suda ezip biraz tuz ekleyin ve tepsinin üzerine gezdirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Önceden ısıtılmış 200 derece fırında sebzeler yumuşayıp üzeri kızarana kadar yaklaşık 25-30 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -520,7 +501,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Arpacık soğan",
@@ -530,7 +510,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tuz ve karabiber",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -540,12 +519,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Arpa şehriye",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sivri biber",
@@ -579,12 +556,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Kavrulan şehriye karışımını bir fırın tepsisine veya borcama eşit şekilde yayın. Pişen etleri soğanlarıyla birlikte şehriyenin üzerine yerleştirin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Sıcak et suyunu, tuz ve karabiberi tepsiye gezdirin. Önceden ısıtılmış 180 derece fırında şehriyeler suyunu çekip yumuşayana kadar yaklaşık 25 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -658,27 +633,22 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Domates salçası",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
           "amount": "4 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Karabiber",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Kekik",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -692,12 +662,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Suyunu çeken tavuklara soğan, sarımsak ve biberleri ekleyerek 4-5 dakika kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Salçayı ekleyip kokusu çıkana kadar karıştırın, ardından domatesleri, tuzu ve karabiberi ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -741,7 +709,6 @@ const sicakYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Kuzu eti",
@@ -776,12 +743,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Pul biber ve kekik",
           "amount": "1'er tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -800,12 +765,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Suyunu çeken ete soğan, sarımsak ve biberleri ekleyip yumuşayana kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Domatesleri ekleyin, domatesler yumuşayıp suyunu hafifçe çekene kadar pişirmeye devam edin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -850,7 +813,6 @@ const sicakYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Taze Fasulye",
@@ -875,22 +837,18 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Sızma Zeytinyağı",
           "amount": "5 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "1/2 su bardağı",
-          "note": null
         }
       ]
     }
@@ -904,12 +862,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Temizlenip doğranmış taze fasulyeleri ekleyin ve rengi canlı yeşile dönene kadar 5-6 dakika soteleyin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Rendelenmiş domatesleri, toz şekeri ve tuzu ilave edip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -958,7 +914,6 @@ const sicakYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Kuru fasulye",
@@ -978,42 +933,34 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Domates salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Biber salçası",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sıvı yağ",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak su",
           "amount": "4 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Karabiber",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Pul biber",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -1027,22 +974,18 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Ayrı bir tencerede sıvı yağ ve tereyağını eritin, etleri ekleyip suyunu salıp çekene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Doğranmış soğanları ekleyin ve pembeleşinceye kadar etlerle birlikte kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Domates ve biber salçasını ekleyip kokusu çıkana kadar 1-2 dakika kavurmaya devam edin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Haşlanmış fasulyeleri, tuzu ve baharatları ilave edip yavaşça karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
@@ -1101,37 +1044,30 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Domates Salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Biber Salçası",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
           "amount": "3 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tereyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "4 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Toz Kırmızı Biber",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -1145,17 +1081,14 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Domates ve biber salçasını ekleyip kokusu çıkana kadar 2 dakika kavurmaya devam edin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Akşamdan ıslatıp süzdüğünüz nohutları tencereye ilave edin ve 2-3 dakika karıştırarak soteleyin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Tuz, toz kırmızı biber ve sıcak suyu ekleyip karıştırın, tencerenin kapağını kapatın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -1200,7 +1133,6 @@ const sicakYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Kabak",
@@ -1220,12 +1152,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Un",
           "amount": "1 su bardağı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
           "amount": "1/2 çay bardağı",
-          "note": null
         },
         {
           "item": "Taze Soğan",
@@ -1240,7 +1170,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Kabartma Tozu",
           "amount": "1 paket",
-          "note": null
         },
         {
           "item": "Tuz ve Karabiber",
@@ -1259,17 +1188,14 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir karıştırma kabında yumurtaları ve zeytinyağını çırpın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Çırpılan karışıma un, kabartma tozu, tuz ve karabiberi ekleyip pürüzsüz olana kadar karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Sıkılmış kabakları, taze soğanı, dereotunu ve ufalanmış beyaz peyniri harca ilave edip spatula ile karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -1279,7 +1205,6 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Önceden ısıtılmış 180 derece fırında üzeri altın sarısı olana kadar yaklaşık 35 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1343,12 +1268,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Domates Salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Biber Salçası",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tereyağı",
@@ -1363,7 +1286,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Baharatlar (Tuz, Karabiber, Pul Biber, Kuru Nane)",
           "amount": "1'er tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -1373,7 +1295,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Sıcak Su",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Tereyağı",
@@ -1383,7 +1304,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Limon Suyu",
           "amount": "2 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -1397,12 +1317,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir kapta kıyma, pirinç, soğan, salçalar, tereyağı, maydanoz ve baharatları iyice yoğurarak homojen bir harç elde edin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Yaprağın damarlı kısmı üste gelecek şekilde düz bir zemine serin, sap kısmını kesin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -1412,17 +1330,14 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Tencerenin tabanına yaprak saplarını dizin ve sarılan yaprakları tencereye sıkıca yan yana sıralayın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Üzerine limon suyu, parçalanmış tereyağı ve sıcak suyu ekleyin. Dağılmamaları için üzerine porselen bir tabak kapatın.",
-      "tip": null
     },
     {
       "stepNumber": 7,
       "instruction": "Kapağı kapalı tencerede, kısık ateşte pirinçler ve etler yumuşayana kadar yaklaşık 40 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1492,12 +1407,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Maydanoz",
@@ -1516,7 +1429,6 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Kuruladığınız patlıcanları zeytinyağında her tarafı hafifçe kızarana kadar çevirin ve fırın tepsisine dizin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1526,17 +1438,14 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Domatesleri, tuzu ve şekeri ilave edip domatesler suyunu çekene kadar pişirin. Ocaktan alıp kıyılmış maydanozu karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Patlıcanların yarık kısımlarını açıp hazırladığınız harcı bolca doldurun.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Tepsiye yarım çay bardağı sıcak su ekleyin ve önceden ısıtılmış 180 derece fırında 30 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1587,12 +1496,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Pirinç",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Pilavlık Bulgur",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuru Soğan",
@@ -1607,22 +1514,18 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Domates Salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Biber Salçası",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
@@ -1632,17 +1535,14 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Kuru Nane",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -1656,12 +1556,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Domates ve biber salçasını ekleyip kokusu çıkana kadar 1-2 dakika kavurmaya devam edin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Yıkanmış mercimek, bulgur ve pirinci ekleyerek 1 dakika karıştırarak kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -1671,7 +1569,6 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Pişen çorbayı karıştırıp sıcak olarak limon dilimleri eşliğinde servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1711,27 +1608,22 @@ const sicakYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Toz Tarhana",
           "amount": "4 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tereyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Domates Salçası",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -1746,17 +1638,14 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Kuru Nane",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "0.5 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -1770,12 +1659,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tencereye tereyağı ve zeytinyağını alın. Salça, sarımsak ve kuru naneyi ekleyip kokusu çıkana kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Kalan 4 su bardağı suyu tencereye ekleyin. Yumuşatılmış tarhanayı da tencereye ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -1785,7 +1672,6 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Kaynamaya başlayan çorbaya tuz ve pul biberi ekleyin. Kısık ateşte 5 dakika daha pişirip ocaktan alın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1839,7 +1725,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -1854,7 +1739,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Yumurta sarısı",
           "amount": "1 adet",
-          "note": null
         },
         {
           "item": "Un",
@@ -1869,12 +1753,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuru nane",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Pul biber",
@@ -1888,7 +1770,6 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 1,
       "instruction": "Yıkanmış pirinci ve sıcak suyu tencereye alın, pirinçler yumuşayana kadar orta ateşte haşlayın.",
-      "tip": null
     },
     {
       "stepNumber": 2,
@@ -1898,12 +1779,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 3,
       "instruction": "Kaynayan çorbanın suyundan 1-2 kepçe alıp kademeli olarak yoğurtlu karışıma ekleyin ve hızlıca çırparak terbiyeyi ılıtın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Ilıttığınız terbiyeyi tencereye ince bir sicim gibi akıtırken çorbayı sürekli karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -1913,7 +1792,6 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Sos tavasında tereyağını eritin, naneyi ekleyip köpürünce çorbanın üzerine gezdirerek servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1963,12 +1841,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Su",
           "amount": "8 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -1998,7 +1874,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -2083,12 +1958,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Su",
           "amount": "3 litre",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -2098,12 +1971,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Un",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sarımsak",
@@ -2113,7 +1984,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Üzüm Sirkesi",
           "amount": "4 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -2123,7 +1993,6 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Pul Biber",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -2152,12 +2021,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Ditilmiş etleri, ezilmiş sarımsağı, sirkeyi ve limon suyunu tencereye ekleyip kısık ateşte 15 dakika kaynatın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Küçük bir tavada kızdırılan tereyağında pul biberi yakmadan kızdırıp çorbanın üzerine gezdirerek sıcak servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2207,12 +2074,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Su",
           "amount": "6 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -2227,12 +2092,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Un",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Yumurta Sarısı",
           "amount": "1 adet",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -2247,17 +2110,14 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Toz Kırmızı Biber",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -2271,12 +2131,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Haşlanan etleri tencereden çıkarıp ılıyınca küçük parçalar halinde tiftikleyin. Et suyunu süzgeçten geçirerek kenara ayırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Terbiye için yoğurt, un, yumurta sarısı ve limon suyunu bir kapta pürüzsüz olana kadar çırpın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -2286,12 +2144,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Ilıyan terbiyeyi kaynayan et suyuna yavaşça dökün ve sürekli karıştırın. Tiftiklenmiş etleri ve tuzu ekleyip kısık ateşte 5-10 dakika kadar pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Küçük bir tavada tereyağını eritin, toz biber ve pul biberi ekleyip kızdırın. Çorbayı kaselere servis yaptıktan sonra üzerine biberli tereyağı gezdirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2331,7 +2187,6 @@ const sicakYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Domates",
@@ -2341,17 +2196,14 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Un",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Domates salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Süt",
@@ -2366,12 +2218,10 @@ const sicakYemekler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Karabiber",
           "amount": "yarım çay kaşığı",
-          "note": null
         },
         {
           "item": "Rendelenmiş kaşar peyniri",
@@ -2390,12 +2240,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Salçayı ilave edip 1 dakika daha kavurun, ardından rendelenmiş domatesleri ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Sıcak suyu azar azar eklerken topaklanmaması için çırpma teliyle hızlıca karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -2405,12 +2253,10 @@ const sicakYemekler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Tuz ve karabiberi ekleyip karıştırın, ardından tencereyi ocaktan alın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Çorbayı kaselere paylaştırın, üzerine rendelenmiş kaşar peyniri serpip sıcak servis edin.",
-      "tip": null
     }
   ],
   "tips": [

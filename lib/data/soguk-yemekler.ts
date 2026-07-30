@@ -215,7 +215,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Dolmalık Fıstık",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuş Üzümü",
@@ -269,7 +268,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir tavada zeytinyağında soğanları ve fıstıkları pembeleşene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -279,12 +277,10 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Yaprakların damarlı kısmı üstte kalacak şekilde düz bir zemine serin. Ortasına harç koyup kenarlarını kapatarak ince silindir şeklinde sarın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Tencerenin tabanına birkaç yaprak serin. Sarmaları sıkıca tencereye dizin. Üzerine limon dilimleri yerleştirip zeytinyağı ve sıcak suyu ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
@@ -329,7 +325,6 @@ const sogukYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Taze Barbunya",
@@ -364,22 +359,18 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Sızma Zeytinyağı",
           "amount": "1/2 çay bardağı",
-          "note": null
         },
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Maydanoz",
@@ -398,22 +389,18 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir tencerede zeytinyağında soğan ve sarımsakları pembeleşene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Havuç ve patatesleri ekleyip 3-4 dakika sotemeye devam edin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Rendelenmiş domates, toz şeker, tuz ve haşlanmış barbunyaları tencereye ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Sıcak suyu ekleyip karıştırın, kapağını kapatıp kısık ateşte sebzeler yumuşayana kadar yaklaşık 25 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -452,7 +439,6 @@ const sogukYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Kereviz",
@@ -482,7 +468,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Limon suyu",
           "amount": "1/2 adet",
-          "note": null
         },
         {
           "item": "Zeytinyağı",
@@ -492,12 +477,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Toz şeker",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -511,17 +494,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tencereye zeytinyağını ve doğranmış soğanları alıp pembeleşene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Havuçları ekleyip 2-3 dakika soteleyin, ardından süzülmüş kerevizleri ve patatesleri ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Portakal suyu, limon suyu, tuz ve şekeri ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -567,7 +547,6 @@ const sogukYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Pırasa",
@@ -587,7 +566,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Sızma Zeytinyağı",
           "amount": "1/2 çay bardağı",
-          "note": null
         },
         {
           "item": "Portakal Suyu",
@@ -597,7 +575,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Limon Suyu",
           "amount": "1/2 adet",
-          "note": null
         },
         {
           "item": "Su",
@@ -607,12 +584,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     }
@@ -626,12 +601,10 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Vereve doğranmış pırasaları ekleyin ve zedelemeden birkaç dakika hafifçe karıştırarak kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Yıkanmış pirinci, portakal suyunu, limon suyunu, sıcak suyu, şekeri ve tuzu ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -700,12 +673,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Sıcak Su",
           "amount": "2 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         }
       ]
     },
@@ -720,7 +691,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Un",
           "amount": "1 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -734,17 +704,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tencerede zeytinyağını ısıtın ve doğranmış soğanları pembeleşinceye kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Süzdüğünüz şevketi bostanları tencereye ekleyin ve 5 dakika soğanlarla birlikte soteleyin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Sıcak suyu ve tuzu ilave edip tencerenin kapağını kapatın; kök kısımları yumuşayana kadar kısık ateşte pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -754,7 +721,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Kısık ateşte 5 dakika daha pişirip ocaktan alın ve oda sıcaklığına gelene kadar tencerede dinlendirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -824,7 +790,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Dolmalık Fıstık",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuş Üzümü",
@@ -839,7 +804,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Baharatlar (Tuz, Karabiber, Yenibahar, Şeker)",
           "amount": "1'er çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -853,17 +817,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tavada zeytinyağı ile soğan ve fıstıkları pembeleşinceye kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Yıkanmış pirinci, kuş üzümünü, baharatları ve yarım çay bardağı sıcak suyu ekleyip kısık ateşte suyunu çekene kadar pişirin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Demlenen harca kıyılmış yeşillikleri ekleyip karıştırın ve ılımaya bırakın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -873,7 +834,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Dolmaları tencereye dik dizin; üzerine biraz zeytinyağı, limon suyu ve 1 su bardağı sıcak su ekleyip kısık ateşte 25 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -932,7 +892,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "1/2 çay bardağı",
-          "note": null
         },
         {
           "item": "Pirinç",
@@ -947,17 +906,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Limon Suyu",
           "amount": "1/2 adet",
-          "note": null
         },
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Dereotu",
@@ -976,17 +932,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tencereye zeytinyağını alın, soğan ve havuçları ekleyip 4-5 dakika soteleyin.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Süzdüğünüz yer elmalarını tencereye ekleyip 2 dakika hafifçe kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Pirinç, portakal suyu, limon suyu, şeker, tuz ve 1 çay bardağı sıcak suyu ilave edin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -996,7 +949,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Oda sıcaklığına geldikten sonra buzdolabında soğutun ve dereotu ile servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1056,12 +1008,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "1 çay bardağı",
-          "note": null
         },
         {
           "item": "Dolmalık Fıstık",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuş Üzümü",
@@ -1076,12 +1026,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Baharatlar",
@@ -1101,17 +1049,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
           "amount": "1 yemek kaşığı",
-          "note": null
         }
       ]
     }
@@ -1125,7 +1070,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Pirinçleri ekleyip 2-3 dakika kavurun. Rendelenmiş domates, kuş üzümü, şeker, tuz ve baharatları ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1140,12 +1084,10 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 5,
       "instruction": "Biberlerin ağzını domates dilimleriyle kapatıp tencereye dik olarak dizin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Üzerlerine zeytinyağı, limon suyu ve sıcak suyu gezdirin. Kapağı kapalı olarak kısık ateşte 40 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1216,7 +1158,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Dolmalık Fıstık",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuş Üzümü",
@@ -1226,12 +1167,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Nane",
@@ -1241,17 +1180,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Yenibahar",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tarçın",
           "amount": "1/2 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "1 su bardağı",
-          "note": null
         }
       ]
     },
@@ -1261,17 +1197,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "3 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
           "amount": "1/2 adet limonun suyu",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "1.5 su bardağı",
-          "note": null
         }
       ]
     }
@@ -1285,17 +1218,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Geniş bir tencerede zeytinyağını ısıtın, soğanları ve dolmalık fıstıkları pembeleşene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Yıkanmış pirinci ekleyip birkaç dakika daha kavurun. Kuş üzümü, tuz, şeker ve baharatları ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "1 su bardağı sıcak suyu ekleyin, kapağını kapatıp kısık ateşte suyunu çekene kadar yarı kıvamda pişirin ve demlenmeye bırakın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -1305,17 +1235,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Tencerenin tabanına lahana yaprakları serin ve sarmaları bitişik şekilde tencereye dizin.",
-      "tip": null
     },
     {
       "stepNumber": 7,
       "instruction": "Üzerine zeytinyağı, limon suyu ve sıcak suyu dökün. Sarmaların açılmaması için üzerine porselen bir tabak kapatın.",
-      "tip": null
     },
     {
       "stepNumber": 8,
       "instruction": "Kısık ateşte lahana yaprakları tamamen yumuşayana kadar yaklaşık 40-45 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1381,12 +1308,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "1/2 çay bardağı",
-          "note": null
         },
         {
           "item": "Dolmalık Fıstık",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Kuş Üzümü",
@@ -1396,27 +1321,22 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Kuru Nane",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Yenibahar",
           "amount": "1/2 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "1 su bardağı",
-          "note": null
         }
       ]
     },
@@ -1426,7 +1346,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -1436,7 +1355,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Sıcak Su",
           "amount": "1 su bardağı",
-          "note": null
         }
       ]
     }
@@ -1450,27 +1368,22 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tencerede zeytinyağında soğan ve dolmalık fıstıkları pembeleşene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Pirinci, kuş üzümünü, baharatları, tuz ve şekeri ekleyin. 1 su bardağı sıcak suyu ekleyip suyunu çekene kadar pişirin ve demlendirin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Pazı yaprağının ortasındaki kalın damarı hafifçe inceltin. İç harç koyarak kenarlarını kapatıp rulo şeklinde sarın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Tencerenin tabanına pazı saplarını dizin. Sarmaları yan yana ve sıkıca yerleştirin.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Üzerine zeytinyağı, limon suyu ve sıcak suyu dökün. Düz bir tabak kapatıp kısık ateşte 25-30 dakika pişirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1537,17 +1450,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "1 çay bardağı",
-          "note": null
         },
         {
           "item": "Domates salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Biber salçası",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Taze soğan",
@@ -1562,17 +1472,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Kimyon",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Pul biber",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Limon suyu",
@@ -1591,17 +1498,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Haşlanan mercimeği ocaktan alıp içerisine ince bulguru ekleyin, karıştırın ve tencerenin kapağını kapatıp 15 dakika demlenmeye bırakın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Tavada zeytinyağını ısıtın, doğranmış kuru soğanları ekleyip pembeleşene kadar kavurun. Salçaları ve baharatları ilave edip 2 dakika daha kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Demlenen mercimekli bulgur karışımına sıcak salçalı sosu dökün. Ele yapışmayacak kıvama gelene kadar ılıklaşınca güzelce yoğurun.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -1611,7 +1515,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Hazırladığınız harçtan ceviz büyüklüğünde parçalar alıp avucunuzda sıkarak şekil verin ve marul yaprakları üzerinde servis edin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1666,7 +1569,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "0.5 çay kaşığı",
-          "note": null
         }
       ]
     },
@@ -1681,7 +1583,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Üzüm Sirkesi",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Su",
@@ -1696,12 +1597,10 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Tereyağı",
           "amount": "2 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Toz Kırmızı Biber",
@@ -1730,12 +1629,10 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Pişen yumurtayı delikli kepçe ile sudan alın, havlu kağıt üzerinde fazla suyunu süzdürüp yoğurdun üzerine yerleştirin.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Küçük bir tavada tereyağını köpürene kadar eritin, pul biber ve toz biberi ekleyip yakmadan kızdırın. Yoğurtlu yumurtanın üzerine gezdirin.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1820,22 +1717,18 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "3 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Toz Şeker",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Karabiber",
           "amount": "1/2 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -1849,7 +1742,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Kızgın sıvı yağda sırasıyla kabakları, biberleri ve patlıcanları kızartıp havlu kağıt serili tabağa alın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
@@ -1859,7 +1751,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 4,
       "instruction": "Kızaran sebzeleri servis tabağına harmanlayıp üzerine sıcak domates sosunu dökün.",
-      "tip": null
     }
   ],
   "tips": [
@@ -1920,7 +1811,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Un",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -1930,17 +1820,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Toz Şeker",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Sıcak Su",
           "amount": "1.5 su bardağı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Dereotu",
@@ -1969,17 +1856,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Tencereye zeytinyağını ve doğranmış soğanları alın, soğanlar yumuşayıp pembeleşene kadar kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "1 yemek kaşığı unu tencereye ekleyip kokusu çıkana kadar 1 dakika soğanlarla birlikte kavurun.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Süzdüğünüz baklaları tencereye ilave edin. Üzerine limon suyu, toz şeker, tuz ve sıcak suyu ekleyip karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
@@ -1989,7 +1873,6 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 6,
       "instruction": "Yemek pişince ocağı kapatın, ince kıyılmış dereotunu ekleyip hafifçe karıştırın ve oda sıcaklığında soğumaya bırakın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2070,17 +1953,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Elma Sirkesi",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Sumak",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -2094,27 +1974,22 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Piyazlık doğradığınız soğanları az tuz ile ovup acısını çıkarın, ardından sudan geçirip süzün.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Soğanları ve kıyılmış maydanozu fasulyelerin üzerine ekleyin.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Küçük bir kapta zeytinyağı, limon suyu, sirke, sumak ve tuzu iyice çırpın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Hazırladığınız sosu piyazın üzerine dökün ve fasulyeleri ezmeden hafifçe karıştırın.",
-      "tip": null
     },
     {
       "stepNumber": 6,
       "instruction": "Haşlanmış yumurtaları dilimleyerek piyazın üzerine dizin ve servis yapın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2204,17 +2079,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Sumak",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "1 tatlı kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -2228,12 +2100,10 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Kıyılmış maydanozu ve doğranmış sebzeleri geniş bir karıştırma kabına alın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Ayrı bir kapta zeytinyağı, nar ekşisi, sumak, pul biber ve tuzu iyice çırpın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
@@ -2277,7 +2147,6 @@ const sogukYemekler: Recipe[] = [
   ],
   "ingredientGroups": [
     {
-      "groupTitle": null,
       "items": [
         {
           "item": "Domates",
@@ -2307,7 +2176,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Zeytinyağı",
           "amount": "4 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -2317,7 +2185,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -2331,17 +2198,14 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Domates, salatalık ve biberleri tavla zarı büyüklüğünde eşit olarak doğrayın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Doğranmış tüm sebzeleri ve ince kıyılmış maydanozu derin bir salata kasesine alın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Ayrı bir kasede zeytinyağı, limon suyu ve tuzu çırpıp salatanın üzerine gezdirin ve nazikçe karıştırın.",
-      "tip": null
     }
   ],
   "tips": [
@@ -2422,7 +2286,6 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Sızma Zeytinyağı",
           "amount": "4 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Limon Suyu",
@@ -2432,17 +2295,14 @@ const sogukYemekler: Recipe[] = [
         {
           "item": "Nar Ekşisi",
           "amount": "1 yemek kaşığı",
-          "note": null
         },
         {
           "item": "Tuz",
           "amount": "1 çay kaşığı",
-          "note": null
         },
         {
           "item": "Pul Biber",
           "amount": "0.5 çay kaşığı",
-          "note": null
         }
       ]
     }
@@ -2456,22 +2316,18 @@ const sogukYemekler: Recipe[] = [
     {
       "stepNumber": 2,
       "instruction": "Piyazlık doğradığınız kırmızı soğanı az tuzla hafifçe ovarak acılığını çıkarın.",
-      "tip": null
     },
     {
       "stepNumber": 3,
       "instruction": "Derin bir karıştırma kabına soğuyan börülceleri, soğanı, köz biberleri ve doğranmış yeşillikleri alın.",
-      "tip": null
     },
     {
       "stepNumber": 4,
       "instruction": "Zeytinyağı, limon suyu, nar ekşisi, tuz ve pul biberi ayrı bir kapta çırpın.",
-      "tip": null
     },
     {
       "stepNumber": 5,
       "instruction": "Hazırladığınız sosu salatanın üzerine dökün, ezmeden hafifçe karıştırıp servis edin.",
-      "tip": null
     }
   ],
   "tips": [

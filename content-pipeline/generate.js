@@ -206,6 +206,32 @@ JSON Şeması:
       }
 
       // d. Recipe Nesnesini İnşa Etme
+      // ÖNEMLİ: Gemini, opsiyonel alanlar (note/tip/groupTitle gibi) boş olduğunda
+      // genellikle literal JSON `null` değeri döndürüyor. Bu değer doğrudan
+      // TypeScript veri dosyasına yazılırsa, Recipe arayüzü bu alanlar için
+      // `string | undefined` beklediğinden derleme hatası oluşturuyordu
+      // (bkz: "Type 'null' is not assignable to type 'string | undefined'").
+      // stripNulls, iç içe geçmiş tüm nesne/dizilerdeki `null` değerlerini
+      // `undefined`'a çevirir - JSON.stringify(obj, null, 2) çağrıldığında
+      // `undefined` değerli alanlar çıktıya HİÇ yazılmaz, bu da en temiz çözümdür.
+      function stripNulls(value) {
+        if (value === null) return undefined;
+        if (Array.isArray(value)) {
+          return value.map(stripNulls);
+        }
+        if (typeof value === 'object' && value !== undefined) {
+          const cleaned = {};
+          for (const key of Object.keys(value)) {
+            const cleanedValue = stripNulls(value[key]);
+            if (cleanedValue !== undefined) {
+              cleaned[key] = cleanedValue;
+            }
+          }
+          return cleaned;
+        }
+        return value;
+      }
+
       const finalRecipe = {
         id: targetRecipe.id,
         title: targetRecipe.title,
@@ -220,8 +246,8 @@ JSON Şeması:
         difficulty: parsedRecipe.difficulty || 'orta',
         mainIngredients: parsedRecipe.mainIngredients || [],
         tags: parsedRecipe.tags || [],
-        ingredientGroups: parsedRecipe.ingredientGroups || [],
-        steps: parsedRecipe.steps || [],
+        ingredientGroups: stripNulls(parsedRecipe.ingredientGroups) || [],
+        steps: stripNulls(parsedRecipe.steps) || [],
         tips: parsedRecipe.tips || [],
         calories: parsedRecipe.calories ? Number(parsedRecipe.calories) : undefined,
         imageUrl: `/images/recipes/${targetRecipe.id}.jpg`
