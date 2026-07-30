@@ -188,7 +188,7 @@ const sicakYemekler: Recipe[] = [
     imageUrl: "/images/recipes/mercimek-corbasi.jpg",
     isFeatured: false,
     isPopular: true
-  }
+  },
   {
   "id": "karniyarik",
   "title": "Karnıyarık",

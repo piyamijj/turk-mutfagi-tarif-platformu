@@ -178,7 +178,7 @@ const tatlilar: Recipe[] = [
     imageUrl: "/images/recipes/kazandibi.jpg",
     isFeatured: false,
     isPopular: true
-  }
+  },
   {
   "id": "kunefe",
   "title": "Künefe",

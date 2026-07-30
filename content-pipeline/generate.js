@@ -243,11 +243,27 @@ JSON Şeması:
       }
 
       const formattedObject = JSON.stringify(finalRecipe, null, 2);
+
+      // ÖNEMLİ: Dizideki önceki son elemanın hemen ardından virgül olup olmadığını
+      // kontrol et. Örn. "...isPopular: true\n  }\n];" durumunda son "}" karakterinden
+      // sonra virgül YOKTUR - bunu eklemeden yeni nesneyi araya sıkıştırmak
+      // "  }\n  {" gibi virgülsüz, geçersiz bir dizi oluşturuyordu (bu bug'ın kök nedeni).
+      // Kapanış parantezinden (];) geriye doğru gidip en yakın boş-olmayan karakteri buluyoruz;
+      // eğer bu karakter ',' değilse (yani '}' ise), önce bir virgül ekliyoruz.
+      let beforeClosing = fileContent.substring(0, closingIndex);
+      const trimmedBefore = beforeClosing.replace(/\s+$/, '');
+      const lastNonWhitespaceChar = trimmedBefore.charAt(trimmedBefore.length - 1);
+
+      if (lastNonWhitespaceChar !== '' && lastNonWhitespaceChar !== ',' && lastNonWhitespaceChar !== '[') {
+        // Önceki son elemanın sonuna eksik virgülü ekle.
+        beforeClosing = trimmedBefore + ',' + beforeClosing.substring(trimmedBefore.length);
+      }
+
       // Dosya içeriğini güncelle
-      const updatedContent = 
-        fileContent.substring(0, closingIndex) + 
-        (closingIndex > 10 && fileContent[closingIndex - 1] !== '\n' ? '\n' : '') +
-        `  ${formattedObject},\n` + 
+      const updatedContent =
+        beforeClosing +
+        (beforeClosing.length > 0 && beforeClosing[beforeClosing.length - 1] !== '\n' ? '\n' : '') +
+        `  ${formattedObject},\n` +
         fileContent.substring(closingIndex);
 
       fs.writeFileSync(filePath, updatedContent, 'utf8');

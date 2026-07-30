@@ -134,7 +134,7 @@ const mezeler: Recipe[] = [
     ],
     imageUrl: "/images/recipes/pacanga-boregi.jpg",
     isFeatured: true
-  }
+  },
   {
   "id": "humus",
   "title": "Humus",

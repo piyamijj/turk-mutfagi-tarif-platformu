@@ -164,7 +164,7 @@ const sogukYemekler: Recipe[] = [
     ],
     calories: 210,
     imageUrl: "/images/recipes/kisir.jpg"
-  }
+  },
   {
   "id": "zeytinyagli-yaprak-sarmasi",
   "title": "Zeytinyağlı Yaprak Sarması",
