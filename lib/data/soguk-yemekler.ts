@@ -1746,6 +1746,742 @@ const sogukYemekler: Recipe[] = [
   "calories": 285,
   "imageUrl": "/images/recipes/cilbir.jpg"
 },
+  {
+  "id": "saksuka",
+  "title": "Şakşuka",
+  "mainCategory": "soguk-yemekler",
+  "subCategory": "salatalar",
+  "subCategoryLabel": "Zeytinyağlılar ve Mezeler",
+  "region": "Akdeniz",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 35,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "patlıcan",
+    "domates",
+    "biber",
+    "sarımsak",
+    "kabak",
+    "zeytinyağı"
+  ],
+  "tags": [
+    "meze",
+    "zeytinyağlı",
+    "vejetaryen",
+    "klasik",
+    "patlıcan"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Kızartılacak Sebzeler",
+      "items": [
+        {
+          "item": "Patlıcan",
+          "amount": "3 adet",
+          "note": "alacalı soyulmuş, küp doğranmış"
+        },
+        {
+          "item": "Kabak",
+          "amount": "1 adet",
+          "note": "küp doğranmış"
+        },
+        {
+          "item": "Yeşil Biber",
+          "amount": "2 adet",
+          "note": "iri yemeklik doğranmış"
+        },
+        {
+          "item": "Kırmızı Kapya Biber",
+          "amount": "1 adet",
+          "note": "küp doğranmış"
+        },
+        {
+          "item": "Sıvı Yağ",
+          "amount": "1 su bardağı",
+          "note": "kızartmak için"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Domates Sosu İçin",
+      "items": [
+        {
+          "item": "Domates",
+          "amount": "3 adet",
+          "note": "rendelenmiş"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "3 diş",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "3 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Toz Şeker",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Karabiber",
+          "amount": "1/2 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Küp doğranmış patlıcanları tuzlu suda 15 dakika bekletin, ardından suyunu süzüp havlu kağıt ile kurulayın.",
+      "tip": "Patlıcanların yağı çekmemesi için tamamen kuru olması gerekir."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Kızgın sıvı yağda sırasıyla kabakları, biberleri ve patlıcanları kızartıp havlu kağıt serili tabağa alın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Ayrı bir tavada zeytinyağında sarımsakları soteleyin, rendelenmiş domates, şeker, tuz ve karabiberi ekleyip sos kıvam alana kadar 8-10 dakika pişirin.",
+      "tip": "Şeker domatesin asiditesini dengeler."
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Kızaran sebzeleri servis tabağına harmanlayıp üzerine sıcak domates sosunu dökün.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Patlıcanları tuzlu suda bekletmek acı suyunu alır ve kızartırken daha az yağ çekmesini sağlar.",
+    "Oda sıcaklığında veya soğuk olarak servis yapabilirsiniz.",
+    "İsteğe bağlı olarak yanında sarımsaklı yoğurt ile ikram edebilirsiniz."
+  ],
+  "calories": 210,
+  "imageUrl": "/images/recipes/saksuka.jpg"
+},
+  {
+  "id": "zeytinyagli-bakla",
+  "title": "Zeytinyağlı Bakla",
+  "mainCategory": "soguk-yemekler",
+  "subCategory": "salatalar",
+  "subCategoryLabel": "Zeytinyağlı Yemekler",
+  "region": "Ege",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 55,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "taze bakla",
+    "zeytinyağı",
+    "kuru soğan",
+    "un",
+    "limon suyu",
+    "dereotu",
+    "toz şeker"
+  ],
+  "tags": [
+    "zeytinyağlı",
+    "vejetaryen",
+    "ege mutfağı",
+    "klasik",
+    "soğuk meze"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Ana Malzemeler",
+      "items": [
+        {
+          "item": "Taze Bakla",
+          "amount": "500 gram",
+          "note": "ayıklanmış ve doğranmış"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "1 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "1/2 çay bardağı",
+          "note": "sızma"
+        },
+        {
+          "item": "Un",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Limon Suyu",
+          "amount": "1/2 adet",
+          "note": "taze sıkılmış"
+        },
+        {
+          "item": "Toz Şeker",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıcak Su",
+          "amount": "1.5 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Dereotu",
+          "amount": "1/2 demet",
+          "note": "ince kıyılmış"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Servis İçin",
+      "items": [
+        {
+          "item": "Süzme Yoğurt",
+          "amount": "1 su bardağı",
+          "note": "isteğe bağlı sarımsaklı"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Bir kapta bol su, yarım limon suyu ve 1 tatlı kaşığı unu karıştırın. Temizleyip kıydığınız baklaları kararmaması için bu suda bekletin.",
+      "tip": "Bakla çok hızlı kararan bir sebzedir, hazırlık aşamasında limonlu unlu suda bekletmek rengini korur."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Tencereye zeytinyağını ve doğranmış soğanları alın, soğanlar yumuşayıp pembeleşene kadar kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "1 yemek kaşığı unu tencereye ekleyip kokusu çıkana kadar 1 dakika soğanlarla birlikte kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Süzdüğünüz baklaları tencereye ilave edin. Üzerine limon suyu, toz şeker, tuz ve sıcak suyu ekleyip karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Tencerenin kapağını kapatın ve kısık ateşte baklalar yumuşayana kadar yaklaşık 30-35 dakika pişirin.",
+      "tip": "Pişerken tencerenin üzerine ıslatılmış pişirme kağıdı kapatırsanız buharı içinde kalır ve baklalar lokum gibi pişer."
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Yemek pişince ocağı kapatın, ince kıyılmış dereotunu ekleyip hafifçe karıştırın ve oda sıcaklığında soğumaya bırakın.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Zeytinyağlı bakla dinlendikçe lezzetlenir, mümkünse bir gece buzdolabında bekletip soğuk servis edin.",
+    "Yanında sarımsaklı süzme yoğurt ve üzerine gezdirilen ekstra sızma zeytinyağı ile servis yapılması gelenekseldir.",
+    "Dereotunu yemeği ocaktan aldıktan sonra eklemek tazeliğini ve aromasını korumasını sağlar."
+  ],
+  "calories": 210,
+  "imageUrl": "/images/recipes/zeytinyagli-bakla.jpg"
+},
+  {
+  "id": "piyaz",
+  "title": "Piyaz",
+  "mainCategory": "soguk-yemekler",
+  "subCategory": "salatalar",
+  "subCategoryLabel": "Salatalar ve Mezeler",
+  "region": "Antalya",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 55,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "kuru fasulye",
+    "kırmızı soğan",
+    "maydanoz",
+    "yumurta",
+    "zeytinyağı",
+    "limon",
+    "sumak"
+  ],
+  "tags": [
+    "salata",
+    "meze",
+    "klasik",
+    "bakliyat",
+    "vejetaryen"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Piyaz Malzemeleri",
+      "items": [
+        {
+          "item": "Kuru Fasulye",
+          "amount": "2 su bardağı",
+          "note": "geceden ıslatılmış ve haşlanmış"
+        },
+        {
+          "item": "Kırmızı Soğan",
+          "amount": "1 adet",
+          "note": "piyazlık doğranmış"
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "1/2 demet",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Yumurta",
+          "amount": "2 adet",
+          "note": "katı haşlanmış"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Sosu İçin",
+      "items": [
+        {
+          "item": "Zeytinyağı",
+          "amount": "4 yemek kaşığı",
+          "note": "sızma"
+        },
+        {
+          "item": "Limon Suyu",
+          "amount": "1 adet",
+          "note": "taze sıkılmış"
+        },
+        {
+          "item": "Elma Sirkesi",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sumak",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Haşlanmış kuru fasulyeleri süzüp derin bir karıştırma kabına alın.",
+      "tip": "Fasulyelerin dağılmaması için çok fazla pişirmemeye özen gösterin."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Piyazlık doğradığınız soğanları az tuz ile ovup acısını çıkarın, ardından sudan geçirip süzün.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Soğanları ve kıyılmış maydanozu fasulyelerin üzerine ekleyin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Küçük bir kapta zeytinyağı, limon suyu, sirke, sumak ve tuzu iyice çırpın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Hazırladığınız sosu piyazın üzerine dökün ve fasulyeleri ezmeden hafifçe karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Haşlanmış yumurtaları dilimleyerek piyazın üzerine dizin ve servis yapın.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Fasulyeleri bir gece önceden ıslatmak pişme süresini kısaltır ve gazını alır.",
+    "Servis yapmadan önce piyazı 15-20 dakika dinlendirirseniz sosu daha iyi çeker.",
+    "İsteğe bağlı olarak üzerine siyah zeytin ve domates dilimleri ekleyebilirsiniz."
+  ],
+  "calories": 260,
+  "imageUrl": "/images/recipes/piyaz.jpg"
+},
+  {
+  "id": "gavurdagi-salatasi",
+  "title": "Gavurdağı Salatası",
+  "mainCategory": "soguk-yemekler",
+  "subCategory": "salatalar",
+  "subCategoryLabel": "Salatalar ve Mezeler",
+  "region": "Gaziantep",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 20,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "domates",
+    "salatalık",
+    "kuru soğan",
+    "ceviz",
+    "nar ekşisi",
+    "zeytinyağı"
+  ],
+  "tags": [
+    "salata",
+    "meze",
+    "gaziantep",
+    "vejetaryen",
+    "klasik"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Salata Malzemeleri",
+      "items": [
+        {
+          "item": "Domates",
+          "amount": "4 adet",
+          "note": "tavla zarı büyüklüğünde doğranmış"
+        },
+        {
+          "item": "Salatalık",
+          "amount": "2 adet",
+          "note": "kabukları soyulup ince küp doğranmış"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "1 adet",
+          "note": "çok ince kıyılmış"
+        },
+        {
+          "item": "Yeşil Biber",
+          "amount": "2 adet",
+          "note": "ince doğranmış"
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "1/2 demet",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Ceviz İçi",
+          "amount": "1 su bardağı",
+          "note": "iri kıyılmış"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Sosu İçin",
+      "items": [
+        {
+          "item": "Zeytinyağı",
+          "amount": "4 yemek kaşığı",
+          "note": "sızma"
+        },
+        {
+          "item": "Nar Ekşisi",
+          "amount": "3 yemek kaşığı",
+          "note": "doğal"
+        },
+        {
+          "item": "Sumak",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul Biber",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Domates, salatalık, biber ve soğanları olabildiğince küçük küpler halinde doğrayın.",
+      "tip": "Sebzelerin eşit ve çok küçük doğranması salatanın lezzet dengesi için önemlidir."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Kıyılmış maydanozu ve doğranmış sebzeleri geniş bir karıştırma kabına alın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Ayrı bir kapta zeytinyağı, nar ekşisi, sumak, pul biber ve tuzu iyice çırpın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Hazırladığınız sosu salatanın üzerine döküp nazikçe karıştırın. Servis tabağına alıp üzerine bolca iri kıyılmış ceviz serpin.",
+      "tip": "Cevizlerin kıtır kalması için sosla karıştırmayıp en üstte servis edin."
+    }
+  ],
+  "tips": [
+    "Domateslerin çok sulanmaması için çekirdekli kısımlarını süzebilirsiniz.",
+    "Hakiki ve kaliteli nar ekşisi kullanmak salatanın özgün lezzetini ortaya çıkarır.",
+    "Salatayı sosladıktan hemen sonra taze olarak servis yapın."
+  ],
+  "calories": 210,
+  "imageUrl": "/images/recipes/gavurdagi-salatasi.jpg"
+},
+  {
+  "id": "coban-salatasi",
+  "title": "Çoban Salatası",
+  "mainCategory": "soguk-yemekler",
+  "subCategory": "salatalar",
+  "subCategoryLabel": "Salatalar ve Mezeler",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 15,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "domates",
+    "salatalık",
+    "biber",
+    "kuru soğan",
+    "maydanoz",
+    "zeytinyağı"
+  ],
+  "tags": [
+    "salata",
+    "vejetaryen",
+    "pratik",
+    "klasik",
+    "zeytinyağlı"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": null,
+      "items": [
+        {
+          "item": "Domates",
+          "amount": "4 adet",
+          "note": "kabukları soyulmuş, küp doğranmış"
+        },
+        {
+          "item": "Salatalık",
+          "amount": "2 adet",
+          "note": "alacalı soyulmuş, küp doğranmış"
+        },
+        {
+          "item": "Yeşil Biber",
+          "amount": "2 adet",
+          "note": "ince doğranmış"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "1 adet",
+          "note": "piyazlık doğranmış"
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "1/2 demet",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "4 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Limon Suyu",
+          "amount": "1/2 adet",
+          "note": "taze sıkılmış"
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Piyazlık doğradığınız soğanları az miktarda tuz ile ovarak acısını çıkarın ve yıkayıp süzün.",
+      "tip": "Soğanların acısını almak salatanın lezzetini dengeler."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Domates, salatalık ve biberleri tavla zarı büyüklüğünde eşit olarak doğrayın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Doğranmış tüm sebzeleri ve ince kıyılmış maydanozu derin bir salata kasesine alın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Ayrı bir kasede zeytinyağı, limon suyu ve tuzu çırpıp salatanın üzerine gezdirin ve nazikçe karıştırın.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Sosu servisten hemen önce ekleyin, aksi takdirde sebzeler sulanıp tazeliğini kaybeder.",
+    "Lezzetli bir çoban salatası için yaz domatesi ve sızma zeytinyağı kullanmaya özen gösterin."
+  ],
+  "calories": 110,
+  "imageUrl": "/images/recipes/coban-salatasi.jpg"
+},
+  {
+  "id": "borulce-salatasi",
+  "title": "Börülce Salatası",
+  "mainCategory": "soguk-yemekler",
+  "subCategory": "salatalar",
+  "subCategoryLabel": "Salatalar ve Mezeler",
+  "region": "Ege",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "kuru börülce",
+    "kırmızı soğan",
+    "maydanoz",
+    "köz kırmızı biber",
+    "zeytinyağı",
+    "limon suyu",
+    "nar ekşisi"
+  ],
+  "tags": [
+    "salata",
+    "meze",
+    "ege",
+    "vejetaryen",
+    "zeytinyağlı",
+    "diyet"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Salata Malzemeleri",
+      "items": [
+        {
+          "item": "Kuru Börülce",
+          "amount": "1.5 su bardağı",
+          "note": "haşlanmış"
+        },
+        {
+          "item": "Kırmızı Soğan",
+          "amount": "1 adet",
+          "note": "piyazlık doğranmış"
+        },
+        {
+          "item": "Közlenmiş Kırmızı Biber",
+          "amount": "2 adet",
+          "note": "küp doğranmış"
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "0.5 demet",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Taze Soğan",
+          "amount": "3 dal",
+          "note": "ince doğranmış"
+        },
+        {
+          "item": "Dereotu",
+          "amount": "0.25 demet",
+          "note": "ince kıyılmış"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Sosu İçin",
+      "items": [
+        {
+          "item": "Sızma Zeytinyağı",
+          "amount": "4 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Limon Suyu",
+          "amount": "1 adet",
+          "note": "taze sıkılmış"
+        },
+        {
+          "item": "Nar Ekşisi",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul Biber",
+          "amount": "0.5 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Kuru börülceleri yumuşayana kadar haşlayın, süzün ve soğumaya bırakın.",
+      "tip": "Börülcelerin dağılmaması için fazla haşlamamaya özen gösterin."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Piyazlık doğradığınız kırmızı soğanı az tuzla hafifçe ovarak acılığını çıkarın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Derin bir karıştırma kabına soğuyan börülceleri, soğanı, köz biberleri ve doğranmış yeşillikleri alın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Zeytinyağı, limon suyu, nar ekşisi, tuz ve pul biberi ayrı bir kapta çırpın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Hazırladığınız sosu salatanın üzerine dökün, ezmeden hafifçe karıştırıp servis edin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Börülceleri bir gece önceden suda bekletmek pişme süresini oldukça kısaltır.",
+    "Salatayı servis yapmadan önce buzdolabında 30 dakika dinlendirirseniz lezzetler daha iyi bütünleşir.",
+    "İsteğe bağlı olarak içerisine kornişon turşu veya haşlanmış mısır da ekleyebilirsiniz."
+  ],
+  "calories": 210,
+  "imageUrl": "/images/recipes/borulce-salatasi.jpg"
+},
 ];
 
 export default sogukYemekler;

@@ -1,10 +1,10 @@
 {
   "totalTarget": 80,
   "batchSize": 15,
-  "lastUpdated": "2026-07-30T19:22:58.604Z",
+  "lastUpdated": "2026-07-30T19:40:38.912Z",
   "summary": {
-    "bekliyor": 47,
-    "tamamlandi": 33,
+    "bekliyor": 0,
+    "tamamlandi": 80,
     "hata": 0
   },
   "recipes": [
@@ -194,10 +194,10 @@
       "mainCategory": "sicak-yemekler",
       "subCategory": "corbalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -206,10 +206,10 @@
       "mainCategory": "sicak-yemekler",
       "subCategory": "corbalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -218,10 +218,10 @@
       "mainCategory": "sicak-yemekler",
       "subCategory": "corbalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -230,10 +230,10 @@
       "mainCategory": "sicak-yemekler",
       "subCategory": "corbalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -242,10 +242,10 @@
       "mainCategory": "sicak-yemekler",
       "subCategory": "corbalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -422,10 +422,10 @@
       "mainCategory": "soguk-yemekler",
       "subCategory": "salatalar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -434,10 +434,10 @@
       "mainCategory": "soguk-yemekler",
       "subCategory": "salatalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -446,10 +446,10 @@
       "mainCategory": "soguk-yemekler",
       "subCategory": "salatalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -458,10 +458,10 @@
       "mainCategory": "soguk-yemekler",
       "subCategory": "salatalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -470,10 +470,10 @@
       "mainCategory": "soguk-yemekler",
       "subCategory": "salatalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -482,10 +482,10 @@
       "mainCategory": "soguk-yemekler",
       "subCategory": "salatalar",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -506,10 +506,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -518,10 +518,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -530,10 +530,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -542,10 +542,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -554,10 +554,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -566,10 +566,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -578,10 +578,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -590,10 +590,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -602,10 +602,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -614,10 +614,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -626,10 +626,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -638,10 +638,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -650,10 +650,10 @@
       "mainCategory": "mezeler",
       "subCategory": "soguk-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -662,10 +662,10 @@
       "mainCategory": "mezeler",
       "subCategory": "sicak-mezeler",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -686,10 +686,10 @@
       "mainCategory": "mezeler",
       "subCategory": "sicak-mezeler",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -698,10 +698,10 @@
       "mainCategory": "mezeler",
       "subCategory": "sicak-mezeler",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -710,10 +710,10 @@
       "mainCategory": "mezeler",
       "subCategory": "sicak-mezeler",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -722,10 +722,10 @@
       "mainCategory": "mezeler",
       "subCategory": "sicak-mezeler",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -746,10 +746,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "serbetli-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -758,10 +758,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "serbetli-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -770,10 +770,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "serbetli-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -782,10 +782,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "serbetli-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -794,10 +794,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "serbetli-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -806,10 +806,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "serbetli-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -818,10 +818,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "serbetli-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -830,10 +830,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "sutlu-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -854,10 +854,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "sutlu-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -866,10 +866,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "sutlu-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -878,10 +878,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "sutlu-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -890,10 +890,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "sutlu-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -902,10 +902,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "sutlu-tatlilar",
       "batch": 1,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     },
     {
@@ -914,10 +914,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "hamur-isleri-helva",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -926,10 +926,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "hamur-isleri-helva",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -938,10 +938,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "hamur-isleri-helva",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -950,10 +950,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "hamur-isleri-helva",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 1,
       "lastError": null
     },
     {
@@ -962,10 +962,10 @@
       "mainCategory": "tatlilar",
       "subCategory": "hamur-isleri-helva",
       "batch": 2,
-      "status": "bekliyor",
-      "hasContent": false,
+      "status": "tamamlandi",
+      "hasContent": true,
       "hasImage": false,
-      "attempts": 0,
+      "attempts": 2,
       "lastError": null
     }
   ]

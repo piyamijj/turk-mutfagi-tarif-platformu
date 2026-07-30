@@ -1795,6 +1795,632 @@ const sicakYemekler: Recipe[] = [
   "calories": 180,
   "imageUrl": "/images/recipes/tarhana-corbasi.jpg"
 },
+  {
+  "id": "yayla-corbasi",
+  "title": "Yayla Çorbası",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "corbalar",
+  "subCategoryLabel": "Çorbalar",
+  "region": "Anadolu Mutfağı",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "servings": 6,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "pirinç",
+    "yoğurt",
+    "yumurta",
+    "un",
+    "tereyağı",
+    "nane"
+  ],
+  "tags": [
+    "çorba",
+    "klasik",
+    "yoğurtlu",
+    "geleneksel",
+    "başlangıç"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Çorba Tabanı İçin",
+      "items": [
+        {
+          "item": "Pirinç",
+          "amount": "1 kahve fincanı",
+          "note": "yıkanmış"
+        },
+        {
+          "item": "Su",
+          "amount": "6 su bardağı",
+          "note": "sıcak"
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    },
+    {
+      "groupTitle": "Terbiyesi İçin",
+      "items": [
+        {
+          "item": "Yoğurt",
+          "amount": "1,5 su bardağı",
+          "note": "oda sıcaklığında"
+        },
+        {
+          "item": "Yumurta sarısı",
+          "amount": "1 adet",
+          "note": null
+        },
+        {
+          "item": "Un",
+          "amount": "1 yemek kaşığı",
+          "note": "tepeleme"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Sosu İçin",
+      "items": [
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Kuru nane",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul biber",
+          "amount": "1/2 çay kaşığı",
+          "note": "isteğe bağlı"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Yıkanmış pirinci ve sıcak suyu tencereye alın, pirinçler yumuşayana kadar orta ateşte haşlayın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Ayrı bir kapta yoğurt, yumurta sarısı ve unu tel çırpıcı ile pürüzsüz bir kıvam alana kadar çırpın.",
+      "tip": "Yoğurdun oda sıcaklığında olması çorbanın kesilmesini önler."
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Kaynayan çorbanın suyundan 1-2 kepçe alıp kademeli olarak yoğurtlu karışıma ekleyin ve hızlıca çırparak terbiyeyi ılıtın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Ilıttığınız terbiyeyi tencereye ince bir sicim gibi akıtırken çorbayı sürekli karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Çorba kaynamaya başladıktan sonra kısık ateşte 5 dakika daha pişirin, ardından tuzunu ekleyip ocaktan alın.",
+      "tip": "Yoğurdun kesilmemesi için tuzu mutlaka en son aşamada ekleyin."
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Sos tavasında tereyağını eritin, naneyi ekleyip köpürünce çorbanın üzerine gezdirerek servis yapın.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Yoğurdun kesilmemesi için terbiyeyi temperleme (ılıtma) işlemini atlamayın ve tuzu çorba kaynadıktan sonra ekleyin.",
+    "Çorbanız durdukça koyulaşırsa servis öncesi biraz sıcak su ekleyerek kıvamını açabilirsiniz.",
+    "Daha lezzetli bir çorba için suyun bir kısmını tavuk suyu ile değiştirebilirsiniz."
+  ],
+  "calories": 185,
+  "imageUrl": "/images/recipes/yayla-corbasi.jpg"
+},
+  {
+  "id": "beyran-corbasi",
+  "title": "Beyran Çorbası",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "corbalar",
+  "subCategoryLabel": "Çorbalar",
+  "region": "Gaziantep",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 180,
+  "totalTimeMinutes": 200,
+  "servings": 4,
+  "difficulty": "zor",
+  "mainIngredients": [
+    "kuzu gerdan",
+    "pirinç",
+    "sarımsak",
+    "iç yağı",
+    "pul biber",
+    "et suyu"
+  ],
+  "tags": [
+    "çorba",
+    "gaziantep",
+    "kuzu eti",
+    "yöresel",
+    "acılı"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Et ve Haşlama İçin",
+      "items": [
+        {
+          "item": "Kuzu gerdan",
+          "amount": "1 kilogram",
+          "note": "kemikli"
+        },
+        {
+          "item": "Su",
+          "amount": "8 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    },
+    {
+      "groupTitle": "Çorba Tabanı ve Birleştirme İçin",
+      "items": [
+        {
+          "item": "Pirinç",
+          "amount": "1 çay bardağı",
+          "note": "önceden haşlanmış"
+        },
+        {
+          "item": "Kuzu iç yağı",
+          "amount": "2 yemek kaşığı",
+          "note": "eriltilmiş ve eritilip kavrulmuş"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "6 diş",
+          "note": "ezilmiş"
+        },
+        {
+          "item": "Acı pul biber",
+          "amount": "1 yemek kaşığı",
+          "note": "Antep pul biberi"
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Kuzu gerdanı su ve tuz ilavesiyle düdüklü tencerede etler kemikten tamamen ayrılana kadar yaklaşık 2 saat pişirin.",
+      "tip": "Kaynama aşamasında kef denilen köpükleri süzgeçle toplayın."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Haşlanan etleri süzün, zırh veya bıçak yardımıyla lif lif ditin ve et suyunu süzgeçten geçirip sıcak tutun.",
+      "tip": "Etlerin olabildiğince ince ditilmesi lezzeti artırır."
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Bakır sahan veya derin metal çorba tabağının tabanına iç yağı, ezilmiş sarımsak ve pul biberi koyun.",
+      "tip": "Geleneksel sunum için mutlaka bakır sahan tercih edin."
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Sahanın üzerine haşlanmış pirinci ve didiklenmiş kuzu etini yerleştirin.",
+      "tip": "Malzemeleri üst üste katman şeklinde dizebilirsiniz."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Sahana yüksek ateşe alıp üzerine fokurdayan sıcak et suyunu gezdirin ve bir taşım coşturarak pişirip hemen ocaktan alın.",
+      "tip": "Yüksek ateş et suyunun yağla bütünleşip coşmasını sağlar."
+    }
+  ],
+  "tips": [
+    "Geleneksel Beyran için kuzu iç yağı (çöz yağı) kullanımı şarttır, dilerseniz tereyağı ile destekleyebilirsiniz.",
+    "Servis ederken yanında mutlaka bol taze limon ve sıcak tırnak pide sunun.",
+    "Çorbanın en önemli özelliği çok yüksek ateşte hızlıca kaynatılıp çok sıcak servis edilmesidir."
+  ],
+  "calories": 480,
+  "imageUrl": "/images/recipes/beyran-corbasi.jpg"
+},
+  {
+  "id": "kelle-paca-corbasi",
+  "title": "Kelle Paça Çorbası",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "corbalar",
+  "subCategoryLabel": "Çorbalar",
+  "region": "Gaziantep",
+  "prepTimeMinutes": 30,
+  "cookTimeMinutes": 180,
+  "totalTimeMinutes": 210,
+  "servings": 6,
+  "difficulty": "zor",
+  "mainIngredients": [
+    "kuzu kellesi",
+    "kuzu paça",
+    "sarımsak",
+    "tereyağı",
+    "un",
+    "limon",
+    "sirke"
+  ],
+  "tags": [
+    "çorba",
+    "yöresel",
+    "et",
+    "klasik",
+    "sakatat"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Haşlama İçin",
+      "items": [
+        {
+          "item": "Kuzu Kellesi",
+          "amount": "1 adet",
+          "note": "iyice temizlenmiş"
+        },
+        {
+          "item": "Kuzu Paça",
+          "amount": "4 adet",
+          "note": "ütülmüş ve temizlenmiş"
+        },
+        {
+          "item": "Su",
+          "amount": "3 litre",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    },
+    {
+      "groupTitle": "Meyanesi ve Sosu İçin",
+      "items": [
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Un",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "6 diş",
+          "note": "ezilmiş"
+        },
+        {
+          "item": "Üzüm Sirkesi",
+          "amount": "4 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Limon Suyu",
+          "amount": "1/2 adet",
+          "note": "taze sıkılmış"
+        },
+        {
+          "item": "Pul Biber",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Temizlenmiş kelle ve paçaları bol suda yıkayıp derin bir tencereye veya düdüklüye alın; suyu ekleyip etler kemikten kolayca ayrılana kadar yaklaşık 2-2.5 saat haşlayın.",
+      "tip": "Haşlama sırasında suyun yüzeyinde biriken kefi (köpüğü) süzgeçle temizleyin."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Haşlanan etleri tencereden çıkarıp ılıyınca küçük parçalar halinde ditin, haşlama suyunu ise ince bir süzgeçten geçirerek kenara ayırın.",
+      "tip": "Süzülen kolajen zengini et suyunu kesinlikle süzmeden kullanmayın."
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Çorba tenceresinde tereyağını eritin, unu ilave edip kokusu çıkana kadar kısık ateşte kavurun.",
+      "tip": "Unun rengini çok karartmadan hafif pembeleşene kadar kavurmanız yeterlidir."
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Süzdüğünüz sıcak et suyunu kavrulmuş una azar azar eklerken tel çırpıcıyla hızlıca karıştırın.",
+      "tip": "Topaklanmayı önlemek için suyu yavaşça ve çırparak ekleyin."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Ditilmiş etleri, ezilmiş sarımsağı, sirkeyi ve limon suyunu tencereye ekleyip kısık ateşte 15 dakika kaynatın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Küçük bir tavada kızdırılan tereyağında pul biberi yakmadan kızdırıp çorbanın üzerine gezdirerek sıcak servis yapın.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Kelle ve paçaları pişirmeden önce sirkeli ve soğuk suda en az 1 saat bekletmek kokusunu tamamen alır.",
+    "Servis ederken yanında ekstra sarımsaklı sirke sosu ve dilimlenmiş limon sunabilirsiniz.",
+    "Çorbayı soğutmadan bol karabiber ve pul biber ilavesiyle sıcak tüketmeniz tavsiye edilir."
+  ],
+  "calories": 380,
+  "imageUrl": "/images/recipes/kelle-paca-corbasi.jpg"
+},
+  {
+  "id": "dugun-corbasi",
+  "title": "Düğün Çorbası",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "corbalar",
+  "subCategoryLabel": "Çorbalar",
+  "region": "Saray Mutfağı",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 65,
+  "servings": 6,
+  "difficulty": "orta",
+  "mainIngredients": [
+    "kuzu gerdan",
+    "yoğurt",
+    "un",
+    "yumurta sarısı",
+    "tereyağı",
+    "limon"
+  ],
+  "tags": [
+    "çorba",
+    "klasik",
+    "etli",
+    "saray mutfağı",
+    "terbiyeli"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Et ve Haşlama İçin",
+      "items": [
+        {
+          "item": "Kuzu Gerdan",
+          "amount": "500 gram",
+          "note": "kemikli"
+        },
+        {
+          "item": "Su",
+          "amount": "6 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    },
+    {
+      "groupTitle": "Terbiyesi İçin",
+      "items": [
+        {
+          "item": "Süzme Yoğurt",
+          "amount": "1 su bardağı",
+          "note": "Oda sıcaklığında"
+        },
+        {
+          "item": "Un",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Yumurta Sarısı",
+          "amount": "1 adet",
+          "note": null
+        },
+        {
+          "item": "Limon Suyu",
+          "amount": "2 yemek kaşığı",
+          "note": "taze sıkılmış"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Üzeri İçin",
+      "items": [
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Toz Kırmızı Biber",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul Biber",
+          "amount": "1 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Kuzu gerdan etini derin bir tencereye alın, suyu ekleyip etler kemikten kolayca ayrılana kadar iyice haşlayın.",
+      "tip": "Etin suyundaki kefi (köpüğü) kevgirle alırsanız çorbanız berrak olur."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Haşlanan etleri tencereden çıkarıp ılıyınca küçük parçalar halinde tiftikleyin. Et suyunu süzgeçten geçirerek kenara ayırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Terbiye için yoğurt, un, yumurta sarısı ve limon suyunu bir kapta pürüzsüz olana kadar çırpın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Süzülen et suyunu tekrar tencereye alın. Kaynayan et suyundan 1-2 kepçe terbiyeye ekleyip hızlıca çırparak terbiyeyi ılıtın.",
+      "tip": "Terbiyenin kesilmemesi için bu ısı eşitleme adımı kritik önem taşır."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Ilıyan terbiyeyi kaynayan et suyuna yavaşça dökün ve sürekli karıştırın. Tiftiklenmiş etleri ve tuzu ekleyip kısık ateşte 5-10 dakika kadar pişirin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Küçük bir tavada tereyağını eritin, toz biber ve pul biberi ekleyip kızdırın. Çorbayı kaselere servis yaptıktan sonra üzerine biberli tereyağı gezdirin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Terbiyeli çorbalarda tuzu her zaman pişmenin son aşamasında ekleyin, aksi halde yoğurt kesilebilir.",
+    "Geleneksel lezzeti yakalamak için mutlaka kuzu gerdan eti ve kemik suyu kullanın.",
+    "Servis sırasında yanında sirke ve sarımsaklı sos sunarak lezzetini zenginleştirebilirsiniz."
+  ],
+  "calories": 285,
+  "imageUrl": "/images/recipes/dugun-corbasi.jpg"
+},
+  {
+  "id": "domates-corbasi",
+  "title": "Domates Çorbası",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "corbalar",
+  "subCategoryLabel": "Çorbalar",
+  "region": "Klasik Türk Mutfağı",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "domates",
+    "un",
+    "tereyağı",
+    "süt",
+    "domates salçası",
+    "kaşar peyniri"
+  ],
+  "tags": [
+    "çorba",
+    "klasik",
+    "kolay",
+    "vejetaryen",
+    "başlangıç"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": null,
+      "items": [
+        {
+          "item": "Domates",
+          "amount": "5 adet",
+          "note": "olgun ve rendelenmiş"
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Un",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Domates salçası",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Süt",
+          "amount": "1 su bardağı",
+          "note": "ılık"
+        },
+        {
+          "item": "Su",
+          "amount": "4 su bardağı",
+          "note": "sıcak"
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Karabiber",
+          "amount": "yarım çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Rendelenmiş kaşar peyniri",
+          "amount": "1 çay bardağı",
+          "note": "servis için"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Tereyağını tencerede eritin, unu ekleyip kokusu çıkana kadar kısık ateşte kavurun.",
+      "tip": "Unun rengini esmerleştirmeden hafifçe kavurmanız yeterlidir."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Salçayı ilave edip 1 dakika daha kavurun, ardından rendelenmiş domatesleri ekleyip karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Sıcak suyu azar azar eklerken topaklanmaması için çırpma teliyle hızlıca karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Çorba kaynamaya başlayınca ılık sütü yavaşça dökün ve karıştırarak kısık ateşte 10 dakika pişirin.",
+      "tip": "Sütün kesilmesini önlemek için mutlaka ılık olmasına dikkat edin."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Tuz ve karabiberi ekleyip karıştırın, ardından tencereyi ocaktan alın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Çorbayı kaselere paylaştırın, üzerine rendelenmiş kaşar peyniri serpip sıcak servis edin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Daha lezzetli bir çorba için mevsiminde etli ve sulu domatesler tercih edin.",
+    "Tamamen pürüzsüz bir kıvam isterseniz servis öncesi çorbayı blenderdan geçirebilirsiniz.",
+    "Kızarmış ekmek küpleri (kruton) ile servis ederek lezzetini artırabilirsiniz."
+  ],
+  "calories": 165,
+  "imageUrl": "/images/recipes/domates-corbasi.jpg"
+},
 ];
 
 export default sicakYemekler;
