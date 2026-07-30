@@ -919,6 +919,7 @@ const tatlilar: Recipe[] = [
 },
   {
   "id": "kalburabasti",
+    description: "Üzeri kalbur deseniyle şekillendirilen, şerbete batırılmış küçük irmikli kurabiyelerin parıltılı ve çıtır bir tatlısı.",
   "title": "Kalburabastı",
   "mainCategory": "tatlilar",
   "subCategory": "serbetli-tatlilar",

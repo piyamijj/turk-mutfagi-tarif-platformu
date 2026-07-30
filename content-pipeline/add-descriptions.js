@@ -85,6 +85,7 @@ const DESCRIPTIONS = {
   "tulumba-tatlisi": "Kabartılmış hamurun kızartılıp şerbete batırıldığı, çıtır dışı yumuşak içiyle sevilen bir tatlı.",
   "kemalpasa-tatlisi": "Küçük peynirli hamur toplarının şerbette pişirildiği, Bursa'ya özgü hafif bir tatlı.",
   "kadayif": "Tel kadayıfın cevizle katmanlanıp şerbetle buluştuğu, çıtır dokulu geleneksel bir tatlı.",
+  "kalburabasti": "Üzeri kalbur deseniyle şekillendirilen, şerbete batırılmış küçük irmikli kurabiyelerin parıltılı ve çıtır bir tatlısı.",
   "firin-sutlac": "Pirinç ve sütün fırında üstü kızararak pişirildiği, Türk mutfağının en sevilen sütlü tatlısı.",
   "tavuk-gogsu": "Tatlı tadı olan özel bir sütlü tatlı; adını, dokusuna benzerlik gösteren tavuk göğsü liflerinden alır.",
   "keskul": "Badem sütünün pişirilip hindistancevizi ve fıstıkla süslendiği, zarif ve hafif bir muhallebi çeşidi.",
@@ -98,99 +99,34 @@ const DESCRIPTIONS = {
   "asure": "Buğday, kuru meyve ve baklagillerin bir araya geldiği, bolluk ve paylaşımı simgeleyen geleneksel bir tatlı."
 };
 
-// Her tarif id'sinin hangi dosyaya ait olduğunu belirten eşleşme tablosu
-const FILE_FOR_ID = {};
+// Taranacak 4 veri dosyası (artık sabit bir id listesine güvenmiyoruz -
+// her dosyadaki HER tarif nesnesi tek tek taranıyor, bu yüzden id->dosya
+// eşleşme tablosuna ihtiyaç kalmadı; bu, önceki sürümde bazı id'lerin
+// listede unutulmuş olması (örn. kalburabasti) yüzünden atlanması sorununu
+// kökünden çözer.)
+const TARGET_FILES = [
+  'lib/data/sicak-yemekler.ts',
+  'lib/data/soguk-yemekler.ts',
+  'lib/data/mezeler.ts',
+  'lib/data/tatlilar.ts'
+];
 
-// Sıcak Yemekler (18 adet)
-[
-  "karniyarik", "izmir-kofte", "ankara-tava", "tavuk-sote", "sac-kavurma",
-  "zeytinyagli-taze-fasulye", "kuru-fasulye", "nohut-yemegi", "firinda-mucver",
-  "etli-yaprak-sarmasi", "imam-bayildi", "ezogelin-corbasi", "tarhana-corbasi",
-  "yayla-corbasi", "beyran-corbasi", "kelle-paca-corbasi", "dugun-corbasi", "domates-corbasi"
-].forEach(id => { FILE_FOR_ID[id] = 'lib/data/sicak-yemekler.ts'; });
-
-// Soğuk Yemekler ve Zeytinyağlılar (18 adet)
-[
-  "zeytinyagli-yaprak-sarmasi", "zeytinyagli-barbunya-pilaki", "zeytinyagli-kereviz",
-  "zeytinyagli-pirasa", "zeytinyagli-sevketi-bostan", "zeytinyagli-kabak-cicegi-dolmasi",
-  "zeytinyagli-yer-elmasi", "zeytinyagli-biber-dolmasi", "zeytinyagli-lahana-sarmasi",
-  "zeytinyagli-pazi-sarmasi", "mercimek-koftesi", "cilbir", "saksuka",
-  "zeytinyagli-bakla", "piyaz", "gavurdagi-salatasi", "coban-salatasi", "borulce-salatasi"
-].forEach(id => { FILE_FOR_ID[id] = 'lib/data/soguk-yemekler.ts'; });
-
-// Mezeler (18 adet)
-[
-  "humus", "muhammara", "babagannus", "koz-patlican-salatasi", "kopoglu",
-  "tarator", "fava", "deniz-borulcesi", "cacik", "atom", "girit-ezmesi",
-  "muallim", "cevizli-kabak-tarator", "arnavut-cigeri", "tereyagli-karides-tava",
-  "kalamar-tava", "sicak-humus", "icli-kofte"
-].forEach(id => { FILE_FOR_ID[id] = 'lib/data/mezeler.ts'; });
-
-// Tatlılar (17 adet)
-[
-  "kunefe", "sekerpare", "revani", "tulumba-tatlisi", "kemalpasa-tatlisi",
-  "kadayif", "firin-sutlac", "tavuk-gogsu", "keskul",
-  "muhallebi", "gullac", "supangle", "irmik-helvasi", "un-helvasi", "kabak-tatlisi",
-  "ayva-tatlisi", "asure"
-].forEach(id => { FILE_FOR_ID[id] = 'lib/data/tatlilar.ts'; });
-
-
-async function main() {
-  console.log('\x1b[35m=== Eksik Açıklama (Description) Ekleme Aracı Başlatıldı ===\x1b[0m\n');
-
-  // Dosya içeriklerini hafızada önbelleğe al (tekrar tekrar okuyup yazmamak için)
-  const fileCache = {};
-  const filePaths = {
-    'lib/data/sicak-yemekler.ts': path.join(PROJECT_ROOT, 'lib/data/sicak-yemekler.ts'),
-    'lib/data/soguk-yemekler.ts': path.join(PROJECT_ROOT, 'lib/data/soguk-yemekler.ts'),
-    'lib/data/mezeler.ts': path.join(PROJECT_ROOT, 'lib/data/mezeler.ts'),
-    'lib/data/tatlilar.ts': path.join(PROJECT_ROOT, 'lib/data/tatlilar.ts')
-  };
-
-  // Dosyaları oku ve önbelleğe yükle
-  for (const [relPath, absPath] of Object.entries(filePaths)) {
-    if (fs.existsSync(absPath)) {
-      fileCache[relPath] = fs.readFileSync(absPath, 'utf8');
-    } else {
-      console.log(`\x1b[33m⚠ Dosya bulunamadı (atlanıyor): ${relPath}\x1b[0m`);
-    }
-  }
-
-  let addedCount = 0;
-  let skippedCount = 0;
-  let notFoundCount = 0;
-  const notFoundIds = [];
-
-  // Her bir açıklamayı ilgili dosyaya yerleştir
-  for (const [id, desc] of Object.entries(DESCRIPTIONS)) {
-    const relPath = FILE_FOR_ID[id];
-    if (!relPath || !fileCache[relPath]) {
-      notFoundCount++;
-      notFoundIds.push(id);
-      continue;
-    }
-
-    let content = fileCache[relPath];
-
-    // id'nin dosyada nerede olduğunu bul (örn: id: "humus" veya "id": "humus")
-    const idRegex = new RegExp(`(["']?id["']?\\s*:\\s*["']${id}["'])`, 'i');
-    const idMatch = idRegex.exec(content);
-
-    if (!idMatch) {
-      notFoundCount++;
-      notFoundIds.push(id);
-      continue;
-    }
-
-    // Bu id'den geriye doğru giderek nesnenin başlangıç parantezini bul
+/**
+ * Bir dosya içeriğinde bulunan TÜM tarif nesnelerini (id + başlangıç/bitiş
+ * konumlarıyla birlikte) brace-depth (parantez derinliği) sayarak bulur.
+ * Regex ile nesne sonunu tahmin etmek güvenilir değildi (iç içe geçmiş
+ * ingredientGroups/steps yüzünden) - bu yöntem nesne ne kadar derin iç içe
+ * geçmiş olursa olsun doğru çalışır.
+ */
+function findAllRecipeObjects(content) {
+  const results = [];
+  const idPattern = /["']?id["']?\s*:\s*["']([a-z0-9-]+)["']/g;
+  let idMatch;
+  while ((idMatch = idPattern.exec(content)) !== null) {
+    const id = idMatch[1];
     const objStart = content.lastIndexOf('{', idMatch.index);
-    if (objStart === -1) {
-      notFoundCount++;
-      notFoundIds.push(id);
-      continue;
-    }
+    if (objStart === -1) continue;
 
-    // Başlangıç parantezinden ileriye doğru giderek nesnenin kapanış parantezini bul (derinlik sayarak)
     let depth = 0;
     let objEnd = -1;
     for (let i = objStart; i < content.length; i++) {
@@ -204,56 +140,119 @@ async function main() {
         }
       }
     }
+    if (objEnd === -1) continue;
 
-    if (objEnd === -1) {
-      notFoundCount++;
-      notFoundIds.push(id);
-      continue;
-    }
-
-    // Nesne bloğunu izole et
-    const objectBlock = content.substring(objStart, objEnd + 1);
-
-    // Bu nesnede zaten bir description alanı var mı kontrol et
-    const hasDescription = /["']?description["']?\s*:/.test(objectBlock);
-    if (hasDescription) {
-      skippedCount++;
-      continue;
-    }
-
-    // id satırının hemen ardına description alanını ekle
-    const idLineEnd = content.indexOf('\n', idMatch.index);
-    if (idLineEnd === -1) {
-      notFoundCount++;
-      notFoundIds.push(id);
-      continue;
-    }
-
-    // Güvenli JSON-escaped açıklama metni oluştur
-    const escapedDesc = JSON.stringify(desc);
-    const insertText = `\n    description: ${escapedDesc},`;
-
-    // Dosya içeriğini güncelle
-    content = content.substring(0, idLineEnd) + insertText + content.substring(idLineEnd);
-    fileCache[relPath] = content;
-    addedCount++;
+    results.push({ id, objStart, objEnd, idLineEnd: content.indexOf('\n', idMatch.index) });
   }
+  return results;
+}
 
-  // Güncellenen dosyaları diske geri yaz
-  for (const [relPath, content] of Object.entries(fileCache)) {
-    const absPath = filePaths[relPath];
-    fs.writeFileSync(absPath, content, 'utf8');
-    console.log(`\x1b[32m✓ ${path.basename(relPath)} dosyası güncellendi.\x1b[0m`);
+/**
+ * Bilinen bir açıklama yoksa, tarifin başlığından (title alanından) makul,
+ * genel ama YİNE DE o tarife özgü bir yedek açıklama üretir - bu SADECE
+ * hazır sözlükte (DESCRIPTIONS) olmayan ve manuel olarak yazılmamış tarifler
+ * için son çare bir güvenlik ağıdır, asıl hedef her zaman DESCRIPTIONS
+ * sözlüğündeki gerçek/özel açıklamayı kullanmaktır.
+ */
+function buildFallbackDescription(title) {
+  return `${title}, Türk mutfağının zengin lezzet dünyasından özenle hazırlanan, geleneksel tarifine uygun bir tabak.`;
+}
+
+async function main() {
+  console.log('\x1b[35m=== Eksik Açıklama (Description) Ekleme Aracı (v2 - Kesin Tarama) Başlatıldı ===\x1b[0m\n');
+
+  let totalAdded = 0;
+  let totalSkipped = 0;
+  let totalFallback = 0;
+  const fallbackIds = [];
+
+  for (const relPath of TARGET_FILES) {
+    const absPath = path.join(PROJECT_ROOT, relPath);
+    const fileName = path.basename(relPath);
+
+    if (!fs.existsSync(absPath)) {
+      console.log(`\x1b[33m⚠ Dosya bulunamadı (atlanıyor): ${fileName}\x1b[0m`);
+      continue;
+    }
+
+    let content = fs.readFileSync(absPath, 'utf8');
+
+    // Bu dosyadaki TÜM tarif nesnelerini bul (id listesine güvenmeden).
+    // NOT: Nesneleri SONDAN BAŞA doğru işliyoruz, çünkü metne ekleme yaptıkça
+    // sonraki karakterlerin index'leri kayar - sondan başlarsak daha önce
+    // hesapladığımız objStart/idLineEnd konumları geçersiz olmaz.
+    const recipeObjects = findAllRecipeObjects(content).sort((a, b) => b.idLineEnd - a.idLineEnd);
+
+    let fileAdded = 0;
+    let fileSkipped = 0;
+
+    for (const recipe of recipeObjects) {
+      if (recipe.idLineEnd === -1) continue;
+
+      const objectBlock = content.substring(recipe.objStart, recipe.objEnd + 1);
+      const hasDescription = /["']?description["']?\s*:/.test(objectBlock);
+
+      if (hasDescription) {
+        fileSkipped++;
+        continue;
+      }
+
+      // Açıklamayı belirle: önce hazır sözlükten (DESCRIPTIONS) gerçek/özel
+      // metni almaya çalış; hiç yoksa (beklenmedik bir id ile karşılaşırsak)
+      // başlıktan türetilmiş güvenli bir yedek metin kullan.
+      let desc = DESCRIPTIONS[recipe.id];
+      if (!desc) {
+        // Nesne bloğundan title alanını çıkarmaya çalış.
+        const titleMatch = /["']?title["']?\s*:\s*["']([^"']+)["']/.exec(objectBlock);
+        const title = titleMatch ? titleMatch[1] : recipe.id;
+        desc = buildFallbackDescription(title);
+        totalFallback++;
+        fallbackIds.push(recipe.id);
+      }
+
+      const escapedDesc = JSON.stringify(desc);
+      const insertText = `\n    description: ${escapedDesc},`;
+
+      content = content.substring(0, recipe.idLineEnd) + insertText + content.substring(recipe.idLineEnd);
+      fileAdded++;
+    }
+
+    if (fileAdded > 0) {
+      fs.writeFileSync(absPath, content, 'utf8');
+    }
+
+    // DOĞRULAMA: Dosyayı DİSKTEN TEKRAR OKUYUP kaç tarif nesnesinin HÂLÂ
+    // description alanı olmadığını say - "0 kalana kadar" garantisi budur.
+    const verifyContent = fs.existsSync(absPath) ? fs.readFileSync(absPath, 'utf8') : content;
+    const verifyObjects = findAllRecipeObjects(verifyContent);
+    let stillMissing = 0;
+    const stillMissingIds = [];
+    for (const recipe of verifyObjects) {
+      const block = verifyContent.substring(recipe.objStart, recipe.objEnd + 1);
+      if (!/["']?description["']?\s*:/.test(block)) {
+        stillMissing++;
+        stillMissingIds.push(recipe.id);
+      }
+    }
+
+    console.log(`\x1b[32m✓ ${fileName}: ${fileAdded} eklendi, ${fileSkipped} zaten mevcuttu.\x1b[0m`);
+    if (stillMissing > 0) {
+      console.log(`\x1b[31m✗ DOĞRULAMA UYARISI - ${fileName}: HALA ${stillMissing} tarifte description eksik: ${stillMissingIds.join(', ')}\x1b[0m`);
+    } else {
+      console.log(`\x1b[32m  → Doğrulandı: ${fileName} içindeki TÜM tariflerde description alanı mevcut (0 eksik).\x1b[0m`);
+    }
+
+    totalAdded += fileAdded;
+    totalSkipped += fileSkipped;
   }
 
   console.log(`\n\x1b[35m=== İşlem Tamamlandı ===\x1b[0m`);
-  console.log(`\x1b[32mEklendi: ${addedCount} adet açıklama\x1b[0m`);
-  console.log(`\x1b[36mAtlandı (Zaten Mevcut): ${skippedCount} adet\x1b[0m`);
-  if (notFoundCount > 0) {
-    console.log(`\x1b[33mBulunamadı/Atlandı: ${notFoundCount} adet (${notFoundIds.join(', ')})\x1b[0m`);
+  console.log(`\x1b[32mToplam Eklendi: ${totalAdded}\x1b[0m`);
+  console.log(`\x1b[36mToplam Zaten Mevcut: ${totalSkipped}\x1b[0m`);
+  if (totalFallback > 0) {
+    console.log(`\x1b[33mNot: ${totalFallback} tarif hazır sözlükte bulunamadığı için genel bir yedek açıklama ile dolduruldu (bunlar için gerçek/özel açıklama sonradan elle iyileştirilebilir): ${fallbackIds.join(', ')}\x1b[0m`);
   }
-
-  if (addedCount > 0) {
+  if (totalAdded > 0) {
     console.log('\n\x1b[32mŞimdi projenizi yerelde "npm run build" ile derleyip Vercel\'e güvenle push edebilirsiniz.\x1b[0m');
   }
 }
