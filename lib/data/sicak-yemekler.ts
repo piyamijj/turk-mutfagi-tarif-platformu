@@ -189,6 +189,1612 @@ const sicakYemekler: Recipe[] = [
     isFeatured: false,
     isPopular: true
   }
+  {
+  "id": "karniyarik",
+  "title": "Karnıyarık",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "et-yemekleri",
+  "subCategoryLabel": "Etli Ev Yemekleri",
+  "region": "Saray Mutfağı",
+  "prepTimeMinutes": 25,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 60,
+  "servings": 4,
+  "difficulty": "orta",
+  "mainIngredients": [
+    "patlıcan",
+    "kıyma",
+    "soğan",
+    "domates",
+    "biber",
+    "sarımsak"
+  ],
+  "tags": [
+    "klasik",
+    "fırın",
+    "ana yemek",
+    "etli",
+    "patlıcan"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Ana Malzemeler",
+      "items": [
+        {
+          "item": "Patlıcan",
+          "amount": "4 adet",
+          "note": "orta boy, çizgili soyulmuş"
+        },
+        {
+          "item": "Sıvı Yağ",
+          "amount": "1 çay bardağı",
+          "note": "kızartmak için"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Kıymalı İç Harç",
+      "items": [
+        {
+          "item": "Dana Kıyma",
+          "amount": "300 gram",
+          "note": "orta yağlı"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "1 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Yeşil Biber",
+          "amount": "2 adet",
+          "note": "ince doğranmış"
+        },
+        {
+          "item": "Domates",
+          "amount": "2 adet",
+          "note": "küp doğranmış"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "3 diş",
+          "note": "kıyılmış"
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Domates Salçası",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz ve Karabiber",
+          "amount": "1'er çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "0.5 demet",
+          "note": "ince kıyılmış"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Sosu İçin",
+      "items": [
+        {
+          "item": "Domates Salçası",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıcak Su",
+          "amount": "1 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "0.5 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Patlıcanları alacalı soyup tuzlu suda 20 dakika bekletin, ardından kağıt havlu ile tamamen kurulayın.",
+      "tip": "Tuzlu su patlıcanın acısını alır ve yağ çekmesini azaltır."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Kızgın yağda patlıcanların her tarafını hafifçe kızartın ve fırın kabına dizin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Tavada zeytinyağında soğan, biber ve sarımsakları kavurun. Kıymayı ekleyip suyunu çekene kadar pişirin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Salçayı, domatesleri, tuz ve karabiberi ekleyip 5 dakika pişirin. Ocaktan alıp kıyılmış maydanozu karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Patlıcanların ortalarını uzunlamasına yararak açın ve hazırladığınız kıymalı harcı içlerine eşitçe doldurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Salça, sıcak su ve tuzu karıştırıp fırın kabının tabanına dökün. Önceden ısıtılmış 190°C fırında 25-30 dakika pişirin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Daha hafif bir alternatif için patlıcanları kızartmak yerine üzerlerine fırça ile yağ sürüp fırında yumuşayana kadar pişirebilirsiniz.",
+    "Servis ederken yanında tereyağlı şehriyeli pirinç pilavı ve soğuk cacık ikram etmeniz önerilir."
+  ],
+  "calories": 385,
+  "imageUrl": "/images/recipes/karniyarik.jpg"
+},
+  {
+  "id": "izmir-kofte",
+  "title": "İzmir Köfte",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "et-yemekleri",
+  "subCategoryLabel": "Et ve Tavuk Yemekleri",
+  "region": "Ege",
+  "prepTimeMinutes": 25,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 60,
+  "servings": 4,
+  "difficulty": "orta",
+  "mainIngredients": [
+    "kıyma",
+    "patates",
+    "domates",
+    "biber",
+    "soğan",
+    "domates salçası"
+  ],
+  "tags": [
+    "et",
+    "fırın",
+    "köfte",
+    "klasik",
+    "ana yemek"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Köfte Harcı İçin",
+      "items": [
+        {
+          "item": "Kıyma",
+          "amount": "500 gram",
+          "note": "orta yağlı dana kıyma"
+        },
+        {
+          "item": "Kuru soğan",
+          "amount": "1 adet",
+          "note": "rendelenmiş, suyu sıkılmış"
+        },
+        {
+          "item": "Bayat ekmek içi",
+          "amount": "1 çay bardağı",
+          "note": "ufalanmış"
+        },
+        {
+          "item": "Yumurta",
+          "amount": "1 adet",
+          "note": null
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "1/4 demet",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Tuz, karabiber, kimyon",
+          "amount": "1'er tatlı kaşığı",
+          "note": null
+        }
+      ]
+    },
+    {
+      "groupTitle": "Sebzeler ve Sos İçin",
+      "items": [
+        {
+          "item": "Patates",
+          "amount": "3 adet",
+          "note": "elma dilim doğranmış"
+        },
+        {
+          "item": "Domates",
+          "amount": "2 adet",
+          "note": "dilimlenmiş"
+        },
+        {
+          "item": "Sivri biber",
+          "amount": "3 adet",
+          "note": "iri doğranmış"
+        },
+        {
+          "item": "Domates salçası",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıcak su",
+          "amount": "1.5 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Sıvı yağ",
+          "amount": "1/2 çay bardağı",
+          "note": "kızartmak için"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Kıyma, soğan, ekmek içi, yumurta, maydanoz ve baharatları derin bir kaba alıp 10 dakika iyice yoğurun.",
+      "tip": "Harcı buzdolabında 20 dakika dinlendirmek şekil vermeyi kolaylaştırır."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Harçtan ceviz büyüklüğünde parçalar koparıp parmak şeklinde oval köfteler hazırlayın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Patatesleri ve köfteleri kızgın yağda çok az, dışı hafif renk alana kadar kızartın.",
+      "tip": "Tamamen pişirmeyin, fırında da pişecekler."
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Kızaran patates ve köfteleri fırın tepsisine sırayla dizin. Üzerlerine domates ve biber dilimlerini yerleştirin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Salçayı sıcak suda ezip biraz tuz ekleyin ve tepsinin üzerine gezdirin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Önceden ısıtılmış 200 derece fırında sebzeler yumuşayıp üzeri kızarana kadar yaklaşık 25-30 dakika pişirin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Soğanın suyunu sıkmak köftenin acı olmasını ve dağılmasını önler.",
+    "Köfte ve patatesleri önceden hafifçe kızartmak geleneksel lezzeti yakalamanızı sağlar.",
+    "Pirinç pilavı ve cacık ile sıcak servis yapılması tavsiye edilir."
+  ],
+  "calories": 480,
+  "imageUrl": "/images/recipes/izmir-kofte.jpg"
+},
+  {
+  "id": "ankara-tava",
+  "title": "Ankara Tava",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "et-yemekleri",
+  "subCategoryLabel": "Et Yemekleri",
+  "region": "Ankara",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 60,
+  "totalTimeMinutes": 80,
+  "servings": 4,
+  "difficulty": "orta",
+  "mainIngredients": [
+    "kuzu eti",
+    "arpa şehriye",
+    "tereyağı",
+    "domates",
+    "biber",
+    "et suyu"
+  ],
+  "tags": [
+    "et",
+    "fırın",
+    "pilav",
+    "yöresel",
+    "ana yemek"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Et Malzemeleri",
+      "items": [
+        {
+          "item": "Kuzu eti",
+          "amount": "600 gram",
+          "note": "kuşbaşı doğranmış"
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Arpacık soğan",
+          "amount": "10 adet",
+          "note": "soyulmuş"
+        },
+        {
+          "item": "Tuz ve karabiber",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    },
+    {
+      "groupTitle": "Şehriye Tabanı İçin",
+      "items": [
+        {
+          "item": "Arpa şehriye",
+          "amount": "2 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sivri biber",
+          "amount": "2 adet",
+          "note": "ince doğranmış"
+        },
+        {
+          "item": "Domates",
+          "amount": "2 adet",
+          "note": "küp doğranmış"
+        },
+        {
+          "item": "Et suyu",
+          "amount": "3.5 su bardağı",
+          "note": "sıcak"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Tencerede tereyağını eritin. Kuzu etlerini ekleyip suyunu salıp çekene kadar kavurun. Arpacık soğanları ekleyip yumuşayana kadar soteleyin. Üzerini geçecek kadar sıcak su ekleyip etler yumuşayana kadar kısık ateşte pişirin.",
+      "tip": "Etin lokum gibi olması için kısık ateşte ağır ağır pişirin."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Geniş bir tavada tereyağını eritin. Arpa şehriyeleri ekleyip rengi dönene kadar kavurun. Biber ve domatesleri ilave edip 2-3 dakika daha soteleyin.",
+      "tip": "Şehriyelerin eşit pişmesi için sürekli karıştırarak kavurun."
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Kavrulan şehriye karışımını bir fırın tepsisine veya borcama eşit şekilde yayın. Pişen etleri soğanlarıyla birlikte şehriyenin üzerine yerleştirin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Sıcak et suyunu, tuz ve karabiberi tepsiye gezdirin. Önceden ısıtılmış 180 derece fırında şehriyeler suyunu çekip yumuşayana kadar yaklaşık 25 dakika pişirin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Geleneksel lezzet için kuzu ön kol veya gerdan eti tercih edin.",
+    "Fırından çıkardıktan sonra üzerini kapatıp 10 dakika demlendirin.",
+    "Yanında ayran ve çoban salata ile servis yapın."
+  ],
+  "calories": 620,
+  "imageUrl": "/images/recipes/ankara-tava.jpg"
+},
+  {
+  "id": "tavuk-sote",
+  "title": "Tavuk Sote",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "et-yemekleri",
+  "subCategoryLabel": "Et ve Tavuk Yemekleri",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 35,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "tavuk göğsü",
+    "biber",
+    "domates",
+    "soğan",
+    "sarımsak",
+    "zeytinyağı"
+  ],
+  "tags": [
+    "tavuk",
+    "sote",
+    "ana yemek",
+    "kolay",
+    "klasik"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Tavuk Sote Malzemeleri",
+      "items": [
+        {
+          "item": "Tavuk göğsü",
+          "amount": "600 gram",
+          "note": "kuşbaşı doğranmış"
+        },
+        {
+          "item": "Kuru soğan",
+          "amount": "1 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Yeşil biber",
+          "amount": "2 adet",
+          "note": "halka doğranmış"
+        },
+        {
+          "item": "Kırmızı kapya biber",
+          "amount": "1 adet",
+          "note": "küp doğranmış"
+        },
+        {
+          "item": "Domates",
+          "amount": "2 adet",
+          "note": "kabuğu soyulup küp doğranmış"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "2 diş",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Domates salçası",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "4 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Karabiber",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Kekik",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Geniş bir tavaya zeytinyağını alın, yüksek ateşte kızdırın ve tavukları ekleyip suyunu çekene kadar soteleyin.",
+      "tip": "Tavukların suyunu hapsetmesi için tavanın çok sıcak olması gerekir."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Suyunu çeken tavuklara soğan, sarımsak ve biberleri ekleyerek 4-5 dakika kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Salçayı ekleyip kokusu çıkana kadar karıştırın, ardından domatesleri, tuzu ve karabiberi ilave edin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Tavanın kapağını kapatıp kısık ateşte domatesler yumuşayana kadar 10 dakika pişirin, ocaktan almadan önce kekiği ekleyip karıştırın.",
+      "tip": "Kekiği en son eklemek acılaşmasını önler ve güzel bir aroma verir."
+    }
+  ],
+  "tips": [
+    "Tavuk göğsü yerine daha sulu ve yumuşak bir kıvam için tavuk pirzola da tercih edebilirsiniz.",
+    "Yanında tereyağlı pirinç pilavı ve patates püresi ile mükemmel bir uyum yakalar."
+  ],
+  "calories": 320,
+  "imageUrl": "/images/recipes/tavuk-sote.jpg"
+},
+  {
+  "id": "sac-kavurma",
+  "title": "Sac Kavurma",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "et-yemekleri",
+  "subCategoryLabel": "Et Yemekleri",
+  "region": "Anadolu",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 25,
+  "totalTimeMinutes": 40,
+  "servings": 4,
+  "difficulty": "orta",
+  "mainIngredients": [
+    "kuzu eti",
+    "kuyruk yağı",
+    "soğan",
+    "yeşil biber",
+    "domates",
+    "sarımsak"
+  ],
+  "tags": [
+    "et",
+    "kavurma",
+    "sac kavurma",
+    "anadolu mutfağı",
+    "akşam yemeği"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": null,
+      "items": [
+        {
+          "item": "Kuzu eti",
+          "amount": "700 gram",
+          "note": "küçük küp doğranmış"
+        },
+        {
+          "item": "Kuyruk yağı",
+          "amount": "100 gram",
+          "note": "küçük küp doğranmış"
+        },
+        {
+          "item": "Kuru soğan",
+          "amount": "2 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Yeşil biber",
+          "amount": "3 adet",
+          "note": "jülyen doğranmış"
+        },
+        {
+          "item": "Domates",
+          "amount": "2 adet",
+          "note": "kabukları soyulmuş, küp doğranmış"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "2 diş",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul biber ve kekik",
+          "amount": "1'er tatlı kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Sac tavayı ocağa alıp iyice ısıtın ve kuyruk yağını ekleyip eriyene kadar kavurun.",
+      "tip": "Kalan kıkırdak parçalarını sactan çıkarabilirsiniz."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Doğranmış kuzu etlerini ekleyin ve yüksek ateşte suyunu salıp çekene kadar karıştırarak pişirin.",
+      "tip": "Eti yüksek ateşte pişirmek suyunu içinde tutar."
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Suyunu çeken ete soğan, sarımsak ve biberleri ekleyip yumuşayana kadar kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Domatesleri ekleyin, domatesler yumuşayıp suyunu hafifçe çekene kadar pişirmeye devam edin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Tuz ve baharatları ilave edip karıştırın, 2 dakika sonra ocaktan alın.",
+      "tip": "Tuzu en son eklemek etin sertleşmesini önler."
+    }
+  ],
+  "tips": [
+    "Sac kavurmayı sıcak olarak taze tırnak pide ve ayran eşliğinde servis edin.",
+    "Kuyruk yağı geleneksel lezzeti verir ancak isteğe bağlı olarak tereyağı da kullanılabilir.",
+    "Eti pişirirken sacın kapağını kapatmayın, sürekli karıştırarak kavurun."
+  ],
+  "calories": 580,
+  "imageUrl": "/images/recipes/sac-kavurma.jpg"
+},
+  {
+  "id": "zeytinyagli-taze-fasulye",
+  "title": "Zeytinyağlı Taze Fasulye",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "sebze-yemekleri",
+  "subCategoryLabel": "Zeytinyağlı Yemekler",
+  "region": "Ege",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 60,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "taze fasulye",
+    "domates",
+    "kuru soğan",
+    "zeytinyağı",
+    "toz şeker",
+    "sarımsak"
+  ],
+  "tags": [
+    "zeytinyağlı",
+    "vejetaryen",
+    "vegan",
+    "klasik",
+    "hafif"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": null,
+      "items": [
+        {
+          "item": "Taze Fasulye",
+          "amount": "500 gram",
+          "note": "kılçıkları temizlenmiş ve uzunlamasına kesilmiş"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "1 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Domates",
+          "amount": "2 adet",
+          "note": "rendelenmiş"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "2 diş",
+          "note": "ince dilimlenmiş"
+        },
+        {
+          "item": "Sızma Zeytinyağı",
+          "amount": "5 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Toz Şeker",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıcak Su",
+          "amount": "1/2 su bardağı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Tencereye zeytinyağının yarısını alın, soğan ve sarımsakları pembeleşene kadar orta ateşte kavurun.",
+      "tip": "Soğanları karamelize etmeden yumuşatmanız yemeğin rengini korur."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Temizlenip doğranmış taze fasulyeleri ekleyin ve rengi canlı yeşile dönene kadar 5-6 dakika soteleyin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Rendelenmiş domatesleri, toz şekeri ve tuzu ilave edip karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Sıcak suyu ekleyin, kapağını kapatıp fasulyeler yumuşayana kadar kısık ateşte yaklaşık 30-35 dakika pişirin.",
+      "tip": "Tencerenin üzerine ıslatılmış yağlı kağıt kapatmak lezzeti hapseder."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Ocağı kapattıktan sonra kalan zeytinyağını yemeğin üzerine gezdirip oda sıcaklığında soğumaya bırakın.",
+      "tip": "Zeytinyağlı yemekler soğudukça ve dinlendikçe lezzetlenir."
+    }
+  ],
+  "tips": [
+    "Yemeği pişirdikten sonra buzdolabında 1 gece dinlendirerek soğuk servis yapmanız lezzetini katlayacaktır.",
+    "Fasulyelerin kılçıksız ve taze olmasına dikkat edin; kırıldığında 'çıt' sesi çıkarmalıdır.",
+    "Domateslerin ekşilik durumuna göre şeker miktarını damak tadınıza göre ayarlayabilirsiniz."
+  ],
+  "calories": 180,
+  "imageUrl": "/images/recipes/zeytinyagli-taze-fasulye.jpg"
+},
+  {
+  "id": "kuru-fasulye",
+  "title": "Kuru Fasulye",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "sebze-yemekleri",
+  "subCategoryLabel": "Bakliyat Yemekleri",
+  "region": "Anadolu Mutfağı",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 50,
+  "totalTimeMinutes": 65,
+  "servings": 4,
+  "difficulty": "orta",
+  "mainIngredients": [
+    "kuru fasulye",
+    "dana eti",
+    "kuru soğan",
+    "domates salçası",
+    "biber salçası",
+    "tereyağı"
+  ],
+  "tags": [
+    "bakliyat",
+    "et",
+    "sulu yemek",
+    "klasik"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": null,
+      "items": [
+        {
+          "item": "Kuru fasulye",
+          "amount": "2 su bardağı",
+          "note": "bir gece önceden ıslatılmış"
+        },
+        {
+          "item": "Dana kuşbaşı",
+          "amount": "300 gram",
+          "note": "orta yağlı"
+        },
+        {
+          "item": "Kuru soğan",
+          "amount": "1 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Domates salçası",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Biber salçası",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıvı yağ",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıcak su",
+          "amount": "4 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Karabiber",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul biber",
+          "amount": "1 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Önceden ıslatılmış fasulyeleri süzüp tencereye alın, üzerini geçecek kadar su ekleyip hafif yumuşayana kadar haşlayın ve süzün.",
+      "tip": "Fasulyeleri tamamen ezilecek kadar çok haşlamayın."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Ayrı bir tencerede sıvı yağ ve tereyağını eritin, etleri ekleyip suyunu salıp çekene kadar kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Doğranmış soğanları ekleyin ve pembeleşinceye kadar etlerle birlikte kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Domates ve biber salçasını ekleyip kokusu çıkana kadar 1-2 dakika kavurmaya devam edin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Haşlanmış fasulyeleri, tuzu ve baharatları ilave edip yavaşça karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Sıcak suyu ekleyin, kapağını kapatıp kısık ateşte fasulyeler kıvam alana kadar yaklaşık 30-35 dakika pişirin.",
+      "tip": "Gerekirse pişme esnasında az miktarda sıcak su ilave edebilirsiniz."
+    }
+  ],
+  "tips": [
+    "Fasulyenin gazını almak için haşlama suyuna bir çimdik kimyon ekleyebilirsiniz.",
+    "Yemeğin lezzetini katlamak için pişirme işlemini toprak güveçte yapabilirsiniz.",
+    "Yanında tereyağlı pirinç pilavı ve turşu ile servis etmeniz tavsiye edilir."
+  ],
+  "calories": 420,
+  "imageUrl": "/images/recipes/kuru-fasulye.jpg"
+},
+  {
+  "id": "nohut-yemegi",
+  "title": "Nohut Yemeği",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "sebze-yemekleri",
+  "subCategoryLabel": "Sulu Yemekler",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 45,
+  "totalTimeMinutes": 60,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "nohut",
+    "kuru soğan",
+    "domates salçası",
+    "biber salçası",
+    "zeytinyağı",
+    "tereyağı"
+  ],
+  "tags": [
+    "bakliyat",
+    "sulu yemek",
+    "tencere yemeği",
+    "klasik",
+    "ev yemeği"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Ana Malzemeler",
+      "items": [
+        {
+          "item": "Nohut",
+          "amount": "2 su bardağı",
+          "note": "akşamdan ıslatılmış"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "1 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Domates Salçası",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Biber Salçası",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "3 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıcak Su",
+          "amount": "4 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Toz Kırmızı Biber",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Tencereye zeytinyağı ve tereyağını alın, yemeklik doğranmış soğanları pembeleşinceye kadar kavurun.",
+      "tip": "Soğanların yanmaması için orta ateşte karıştırarak kavurun."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Domates ve biber salçasını ekleyip kokusu çıkana kadar 2 dakika kavurmaya devam edin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Akşamdan ıslatıp süzdüğünüz nohutları tencereye ilave edin ve 2-3 dakika karıştırarak soteleyin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Tuz, toz kırmızı biber ve sıcak suyu ekleyip karıştırın, tencerenin kapağını kapatın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Kısık ateşte nohutlar yumuşayana kadar yaklaşık 40-45 dakika pişirin.",
+      "tip": "Düdüklü tencere kullanırsanız pişme süresi 20 dakikaya düşecektir."
+    }
+  ],
+  "tips": [
+    "Nohutların kolay pişmesi için ıslatma suyuna 1 çay kaşığı karbonat ekleyebilirsiniz.",
+    "Geleneksel lezzet için yanında tereyağlı pirinç pilavı ve turşu ile servis yapın.",
+    "Arzuya göre soğanlarla birlikte kuşbaşı et veya sucuk ekleyerek etli nohut da yapabilirsiniz."
+  ],
+  "calories": 320,
+  "imageUrl": "/images/recipes/nohut-yemegi.jpg"
+},
+  {
+  "id": "firinda-mucver",
+  "title": "Fırında Mücver",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "sebze-yemekleri",
+  "subCategoryLabel": "Sebze Yemekleri",
+  "region": "Ege",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 35,
+  "totalTimeMinutes": 55,
+  "servings": 6,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "kabak",
+    "yumurta",
+    "un",
+    "beyaz peynir",
+    "dereotu",
+    "taze soğan"
+  ],
+  "tags": [
+    "fırın",
+    "vejetaryen",
+    "kabak",
+    "mücver",
+    "hafif"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": null,
+      "items": [
+        {
+          "item": "Kabak",
+          "amount": "3 adet",
+          "note": "orta boy"
+        },
+        {
+          "item": "Yumurta",
+          "amount": "3 adet",
+          "note": "oda sıcaklığında"
+        },
+        {
+          "item": "Beyaz Peynir",
+          "amount": "150 gram",
+          "note": "ufalanmış"
+        },
+        {
+          "item": "Un",
+          "amount": "1 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "1/2 çay bardağı",
+          "note": null
+        },
+        {
+          "item": "Taze Soğan",
+          "amount": "4 dal",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Dereotu",
+          "amount": "1/2 demet",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Kabartma Tozu",
+          "amount": "1 paket",
+          "note": null
+        },
+        {
+          "item": "Tuz ve Karabiber",
+          "amount": "1'er çay kaşığı",
+          "note": "damak tadına göre"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Kabakları rendeleyin ve avucunuzla suyunu iyice sıkarak ayrı bir kaba alın.",
+      "tip": "Kabakların suyunu çok iyi sıkmak mücverin sulanmasını ve hamur olmasını önler."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Geniş bir karıştırma kabında yumurtaları ve zeytinyağını çırpın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Çırpılan karışıma un, kabartma tozu, tuz ve karabiberi ekleyip pürüzsüz olana kadar karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Sıkılmış kabakları, taze soğanı, dereotunu ve ufalanmış beyaz peyniri harca ilave edip spatula ile karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Harcı yağlanmış veya pişirme kağıdı serilmiş fırın kabına dökün ve üzerini düzeltin.",
+      "tip": "İsteğe bağlı olarak üzerine susam veya çörek otu serpebilirsiniz."
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Önceden ısıtılmış 180 derece fırında üzeri altın sarısı olana kadar yaklaşık 35 dakika pişirin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Fırından çıktıktan sonra 10-15 dakika dinlendirirseniz daha kolay dilimlenir.",
+    "Yanında sarımsaklı çırpılmış yoğurt ile servis edilmesi tavsiye edilir.",
+    "Peynirin tuz oranına göre ekleyeceğiniz tuz miktarını ayarlamayı unutmayın."
+  ],
+  "calories": 185,
+  "imageUrl": "/images/recipes/firinda-mucver.jpg"
+},
+  {
+  "id": "etli-yaprak-sarmasi",
+  "title": "Etli Yaprak Sarması",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "sebze-yemekleri",
+  "subCategoryLabel": "Et Yemekleri",
+  "region": "Anadolu Mutfağı",
+  "prepTimeMinutes": 45,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 85,
+  "servings": 6,
+  "difficulty": "zor",
+  "mainIngredients": [
+    "asma yaprağı",
+    "kıyma",
+    "pirinç",
+    "soğan",
+    "tereyağı",
+    "salça"
+  ],
+  "tags": [
+    "etli dolma",
+    "klasik",
+    "türk mutfağı",
+    "akşam yemeği"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "İç Harcı İçin",
+      "items": [
+        {
+          "item": "Salamura Asma Yaprağı",
+          "amount": "400 gram",
+          "note": "tuzu alınmış"
+        },
+        {
+          "item": "Kıyma",
+          "amount": "350 gram",
+          "note": "orta yağlı dana ve kuzu karışımı"
+        },
+        {
+          "item": "Pirinç",
+          "amount": "1 su bardağı",
+          "note": "yıkanmış ve süzülmüş"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "2 adet",
+          "note": "yemeklik çok ince doğranmış"
+        },
+        {
+          "item": "Domates Salçası",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Biber Salçası",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "2 yemek kaşığı",
+          "note": "oda sıcaklığında"
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "1/2 demet",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Baharatlar (Tuz, Karabiber, Pul Biber, Kuru Nane)",
+          "amount": "1'er tatlı kaşığı",
+          "note": null
+        }
+      ]
+    },
+    {
+      "groupTitle": "Pişirme Suyu İçin",
+      "items": [
+        {
+          "item": "Sıcak Su",
+          "amount": "2 su bardağı",
+          "note": null
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "1 yemek kaşığı",
+          "note": "üzeri için"
+        },
+        {
+          "item": "Limon Suyu",
+          "amount": "2 yemek kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Salamura yaprakları tuzunun çıkması için ılık suda 15 dakika bekletin, ardından yıkayıp süzün.",
+      "tip": "Taze yaprak kullanıyorsanız sıcak suda 2-3 dakika haşlamanız yeterlidir."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Geniş bir kapta kıyma, pirinç, soğan, salçalar, tereyağı, maydanoz ve baharatları iyice yoğurarak homojen bir harç elde edin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Yaprağın damarlı kısmı üste gelecek şekilde düz bir zemine serin, sap kısmını kesin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Geniş kısmına harçtan koyup kenarları içe katlayarak rulo şeklinde çok sıkı olmayacak şekilde sarın.",
+      "tip": "Etli sarma pişerken pirinçler şişeceği için zeytinyağlı sarmaya göre biraz daha gevşek sarılmalıdır."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Tencerenin tabanına yaprak saplarını dizin ve sarılan yaprakları tencereye sıkıca yan yana sıralayın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Üzerine limon suyu, parçalanmış tereyağı ve sıcak suyu ekleyin. Dağılmamaları için üzerine porselen bir tabak kapatın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 7,
+      "instruction": "Kapağı kapalı tencerede, kısık ateşte pirinçler ve etler yumuşayana kadar yaklaşık 40 dakika pişirin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Etli yaprak sarmasını mutlaka sıcak veya ılık olarak servis yapın.",
+    "Yanında sarımsaklı yoğurt veya süzme yoğurt ile servis edilmesi lezzetini tamamlar.",
+    "Tencerenin dibine ekşi lezzet vermesi için erik veya ayva dilimleri ekleyebilirsiniz."
+  ],
+  "calories": 380,
+  "imageUrl": "/images/recipes/etli-yaprak-sarmasi.jpg"
+},
+  {
+  "id": "imam-bayildi",
+  "title": "İmam Bayıldı",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "sebze-yemekleri",
+  "subCategoryLabel": "Zeytinyağlı Yemekler",
+  "region": "Saray Mutfağı",
+  "prepTimeMinutes": 25,
+  "cookTimeMinutes": 40,
+  "totalTimeMinutes": 65,
+  "servings": 4,
+  "difficulty": "orta",
+  "mainIngredients": [
+    "patlıcan",
+    "kuru soğan",
+    "domates",
+    "sarımsak",
+    "zeytinyağı",
+    "maydanoz"
+  ],
+  "tags": [
+    "zeytinyağlı",
+    "vejetaryen",
+    "klasik",
+    "sebze",
+    "yaz yemeği"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Ana Malzemeler",
+      "items": [
+        {
+          "item": "Kemer Patlıcanı",
+          "amount": "4 adet",
+          "note": "orta boy"
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "3 adet",
+          "note": "piyazlık doğranmış"
+        },
+        {
+          "item": "Domates",
+          "amount": "3 adet",
+          "note": "küp doğranmış"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "8 diş",
+          "note": "bütün veya ikiye bölünmüş"
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "1 çay bardağı",
+          "note": "sızma"
+        },
+        {
+          "item": "Toz Şeker",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Maydanoz",
+          "amount": "1/2 demet",
+          "note": "ince kıyılmış"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Patlıcanları alacalı soyup ortalarını uzunlamasına çizin ve acısının çıkması için 20 dakika tuzlu suda bekletin.",
+      "tip": "Suda bekleyen patlıcanları kurulamadan yağa atmayın."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Kuruladığınız patlıcanları zeytinyağında her tarafı hafifçe kızarana kadar çevirin ve fırın tepsisine dizin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Tavada kalan zeytinyağında soğanları ve sarımsakları yumuşayana kadar kavurun.",
+      "tip": "Soğanların karamelize olması yemeğe lezzet katar."
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Domatesleri, tuzu ve şekeri ilave edip domatesler suyunu çekene kadar pişirin. Ocaktan alıp kıyılmış maydanozu karıştırın.",
+      "tip": null
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Patlıcanların yarık kısımlarını açıp hazırladığınız harcı bolca doldurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 6,
+      "instruction": "Tepsiye yarım çay bardağı sıcak su ekleyin ve önceden ısıtılmış 180 derece fırında 30 dakika pişirin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Zeytinyağlı yemekler dinlendikçe lezzetlenir; mümkünse bir gün dolapta bekletip soğuk servis edin.",
+    "Soğan miktarını bol tutmak yemeğin geleneksel lezzetini ortaya çıkarır.",
+    "Servis ederken üzerine taze taze kıyılmış maydanoz ve gezdirilmiş sızma zeytinyağı ekleyebilirsiniz."
+  ],
+  "calories": 280,
+  "imageUrl": "/images/recipes/imam-bayildi.jpg"
+},
+  {
+  "id": "ezogelin-corbasi",
+  "title": "Ezogelin Çorbası",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "corbalar",
+  "subCategoryLabel": "Çorbalar",
+  "region": "Gaziantep",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 30,
+  "totalTimeMinutes": 45,
+  "servings": 6,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "kırmızı mercimek",
+    "pirinç",
+    "bulgur",
+    "tereyağı",
+    "nane",
+    "salça",
+    "soğan"
+  ],
+  "tags": [
+    "çorba",
+    "klasik",
+    "yöresel",
+    "bakliyat",
+    "sıcak"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": "Çorba Malzemeleri",
+      "items": [
+        {
+          "item": "Kırmızı Mercimek",
+          "amount": "1 su bardağı",
+          "note": "yıkanmış ve süzülmüş"
+        },
+        {
+          "item": "Pirinç",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pilavlık Bulgur",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Kuru Soğan",
+          "amount": "1 adet",
+          "note": "yemeklik doğranmış"
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "2 diş",
+          "note": "ince kıyılmış"
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Domates Salçası",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Biber Salçası",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sıcak Su",
+          "amount": "6 su bardağı",
+          "note": "et veya tavuk suyu da kullanılabilir"
+        },
+        {
+          "item": "Kuru Nane",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul Biber",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Tencerede tereyağı ve zeytinyağını ısıtıp soğan ile sarımsakları pembeleşene kadar kavurun.",
+      "tip": "Soğanları yakmadan kısık ateşte yumuşatmak aromayı güzelleştirir."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Domates ve biber salçasını ekleyip kokusu çıkana kadar 1-2 dakika kavurmaya devam edin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Yıkanmış mercimek, bulgur ve pirinci ekleyerek 1 dakika karıştırarak kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Sıcak suyu, tuzu ve baharatları ekleyip tencerenin kapağını kapatın; bakliyatlar yumuşayana kadar yaklaşık 25 dakika kısık ateşte pişirin.",
+      "tip": "Taşmayı önlemek için tencere kapağını yarım aralık bırakın."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Pişen çorbayı karıştırıp sıcak olarak limon dilimleri eşliğinde servis edin.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Geleneksel Ezogelin çorbası tamamen pürüzsüz yapılmaz, taneli kalması makbuldür.",
+    "Servis ederken üzerine tereyağında kızdırılmış kuru nane ve pul biber gezdirebilirsiniz.",
+    "Çorba durdukça koyulaşırsa servis öncesi az miktarda sıcak su ekleyerek kıvamını açabilirsiniz."
+  ],
+  "calories": 180,
+  "imageUrl": "/images/recipes/ezogelin-corbasi.jpg"
+},
+  {
+  "id": "tarhana-corbasi",
+  "title": "Tarhana Çorbası",
+  "mainCategory": "sicak-yemekler",
+  "subCategory": "corbalar",
+  "subCategoryLabel": "Çorbalar",
+  "region": "Anadolu",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "totalTimeMinutes": 30,
+  "servings": 4,
+  "difficulty": "kolay",
+  "mainIngredients": [
+    "toz tarhana",
+    "tereyağı",
+    "domates salçası",
+    "sarımsak",
+    "kuru nane",
+    "et suyu"
+  ],
+  "tags": [
+    "çorba",
+    "klasik",
+    "geleneksel",
+    "kış çorbası",
+    "kolay"
+  ],
+  "ingredientGroups": [
+    {
+      "groupTitle": null,
+      "items": [
+        {
+          "item": "Toz Tarhana",
+          "amount": "4 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tereyağı",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Zeytinyağı",
+          "amount": "1 yemek kaşığı",
+          "note": null
+        },
+        {
+          "item": "Domates Salçası",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Sarımsak",
+          "amount": "1 diş",
+          "note": "ezilmiş"
+        },
+        {
+          "item": "Su veya Et Suyu",
+          "amount": "5 su bardağı",
+          "note": "ılık veya soğuk"
+        },
+        {
+          "item": "Kuru Nane",
+          "amount": "1 tatlı kaşığı",
+          "note": null
+        },
+        {
+          "item": "Tuz",
+          "amount": "1 çay kaşığı",
+          "note": null
+        },
+        {
+          "item": "Pul Biber",
+          "amount": "0.5 çay kaşığı",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "stepNumber": 1,
+      "instruction": "Toz tarhanayı 1 su bardağı ılık suyun içinde karıştırarak yumuşamaya bırakın.",
+      "tip": "Tarhanayı önceden suda bekletmek topaklanmasını önler."
+    },
+    {
+      "stepNumber": 2,
+      "instruction": "Tencereye tereyağı ve zeytinyağını alın. Salça, sarımsak ve kuru naneyi ekleyip kokusu çıkana kadar kavurun.",
+      "tip": null
+    },
+    {
+      "stepNumber": 3,
+      "instruction": "Kalan 4 su bardağı suyu tencereye ekleyin. Yumuşatılmış tarhanayı da tencereye ilave edin.",
+      "tip": null
+    },
+    {
+      "stepNumber": 4,
+      "instruction": "Çorbayı kaynayana kadar çırpma teli ile sürekli karıştırarak pişirin.",
+      "tip": "Kaynayana kadar karıştırmayı bırakmayın, aksi halde dip tutabilir."
+    },
+    {
+      "stepNumber": 5,
+      "instruction": "Kaynamaya başlayan çorbaya tuz ve pul biberi ekleyin. Kısık ateşte 5 dakika daha pişirip ocaktan alın.",
+      "tip": null
+    }
+  ],
+  "tips": [
+    "Kıvamı koyu olursa azar azar sıcak su ekleyerek açabilirsiniz.",
+    "Servis ederken üzerine tereyağında kızdırılmış nane ve kruton ekmek ekleyebilirsiniz."
+  ],
+  "calories": 180,
+  "imageUrl": "/images/recipes/tarhana-corbasi.jpg"
+},
 ];
 
 export default sicakYemekler;
