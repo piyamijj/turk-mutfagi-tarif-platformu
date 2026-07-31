@@ -17,9 +17,18 @@ export default function RecipeCard({ recipe, index = 0 }: RecipeCardProps) {
   const { isFavorite, toggleFavorite } = useFavorites();
   const [imgError, setImgError] = useState(false);
   const [mounted, setMounted] = useState(false);
+  // GÜVENLİK AĞI: whileInView/IntersectionObserver tetikleyicisi bazı
+  // tarayıcı/viewport kombinasyonlarında hiç ateşlenmeyebilir (bu, canlı
+  // sitede ana sayfadaki kartların kalıcı olarak boş/opacity:0 görünmesine
+  // yol açan gerçek bir hataydı). Bu yüzden içerik ASLA sadece scroll
+  // tetiklemesine bağımlı kalmamalı: kısa bir süre sonra (kullanıcı hiç
+  // kaydırmasa bile) forceVisible true olur ve kart görünür hale gelir.
+  const [forceVisible, setForceVisible] = useState(false);
 
   useEffect(() => {
     setMounted(true);
+    const timer = setTimeout(() => setForceVisible(true), 700);
+    return () => clearTimeout(timer);
   }, []);
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
@@ -58,8 +67,16 @@ export default function RecipeCard({ recipe, index = 0 }: RecipeCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
+      // forceVisible true olduğunda `animate` prop'u devreye girer ve
+      // framer-motion'da animate, whileInView'e göre önceliklidir - bu
+      // sayede scroll tetikleyicisi çalışmasa/gecikse bile kart en fazla
+      // 700ms içinde kesin olarak görünür hale gelir (bkz. yukarıdaki
+      // forceVisible useEffect'i). Tetikleyici normal çalışırsa zaten
+      // daha önce whileInView ile görünür olur, forceVisible sadece bir
+      // güvenlik ağıdır, birincil animasyon deneyimini değiştirmez.
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
+      animate={forceVisible ? { opacity: 1, y: 0 } : undefined}
+      viewport={{ once: true, margin: "200px", amount: 0 }}
       transition={{
         duration: 0.5,
         delay,

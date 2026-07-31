@@ -86,9 +86,15 @@ export default function RecipeDetailClient({ recipe, relatedRecipes }: RecipeDet
   const [checkedIngredients, setCheckedIngredients] = useState<Set<string>>(new Set());
   const [imgError, setImgError] = useState(false);
   const [mounted, setMounted] = useState(false);
+  // GÜVENLİK AĞI: whileInView/IntersectionObserver tetikleyicisi güvenilmez
+  // olabildiği için (bkz. ana sayfadaki aynı sınıf hata), tarif adımları gibi
+  // İŞLEVSEL içerik ASLA sadece scroll tetiklemesine bağımlı kalmamalı.
+  const [forceVisible, setForceVisible] = useState(false);
 
   useEffect(() => {
     setMounted(true);
+    const timer = setTimeout(() => setForceVisible(true), 700);
+    return () => clearTimeout(timer);
   }, []);
 
   const multiplier = useMemo(() => {
@@ -254,7 +260,8 @@ export default function RecipeDetailClient({ recipe, relatedRecipes }: RecipeDet
                     key={step.stepNumber}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
+                    animate={forceVisible ? { opacity: 1, y: 0 } : undefined}
+                    viewport={{ once: true, margin: "200px", amount: 0 }}
                     transition={{ duration: 0.5, delay: idx * 0.05, ease: [0.16, 1, 0.3, 1] }}
                     className="bg-white rounded-2xl border border-cardborder p-5 sm:p-6 shadow-sm flex gap-4 sm:gap-5 items-start w-full"
                   >

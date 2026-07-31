@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -18,6 +18,17 @@ interface HomeClientProps {
 export default function HomeClient({ featuredRecipes, popularRecipes, categories }: HomeClientProps) {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
+  // GÜVENLİK AĞI: canlı sitede category/featured/popular bölümlerindeki
+  // whileInView tetikleyicisi bazı durumlarda hiç ateşlenmeyip kartların
+  // kalıcı olarak opacity:0 (görünmez) kalmasına yol açan gerçek bir hataydı.
+  // forceVisible, sayfa yüklendikten kısa bir süre sonra true olur ve tüm
+  // whileInView animasyonlu bölümler `animate` prop'u üzerinden kesin
+  // olarak görünür hale getirilir - scroll tetiklemesi çalışsa da çalışmasa da.
+  const [forceVisible, setForceVisible] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => setForceVisible(true), 700);
+    return () => clearTimeout(timer);
+  }, []);
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -228,7 +239,8 @@ export default function HomeClient({ featuredRecipes, popularRecipes, categories
                   key={cat.slug}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-50px" }}
+                  animate={forceVisible ? { opacity: 1, y: 0 } : undefined}
+                  viewport={{ once: true, margin: "200px", amount: 0 }}
                   transition={{ duration: 0.5, delay: idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
                   className="w-full"
                 >
@@ -326,7 +338,8 @@ export default function HomeClient({ featuredRecipes, popularRecipes, categories
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-50px" }}
+            animate={forceVisible ? { opacity: 1, y: 0 } : undefined}
+            viewport={{ once: true, margin: "200px", amount: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="bg-gradient-to-br from-olive to-olive-dark text-cream rounded-3xl p-8 sm:p-12 lg:p-16 shadow-xl relative overflow-hidden w-full"
           >
