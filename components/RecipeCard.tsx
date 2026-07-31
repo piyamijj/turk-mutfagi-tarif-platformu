@@ -144,7 +144,7 @@ export default function RecipeCard({ recipe, index = 0 }: RecipeCardProps) {
           </p>
 
           {/* Meta Row */}
-          <div className="flex items-center gap-4 text-xs text-ink/50 mt-4 pt-3.5 border-t border-cardborder w-full">
+          <div className="flex items-center gap-4 text-xs text-ink/65 mt-4 pt-3.5 border-t border-cardborder w-full">
             <div className="flex items-center gap-1.5">
               <Clock className="w-4 h-4 text-olive/70" />
               <span>{recipe.totalTimeMinutes} dk</span>

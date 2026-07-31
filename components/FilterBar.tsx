@@ -36,7 +36,7 @@ export default function FilterBar({
       {/* 1. Search Input (Optional) */}
       {showSearchInput && onSearchChange && (
         <div className="relative w-full">
-          <div className="absolute inset-y-0 left-3.5 flex items-center pointer-events-none text-ink/40">
+          <div className="absolute inset-y-0 left-3.5 flex items-center pointer-events-none text-ink/60">
             <Search className="w-5 h-5" />
           </div>
           <input
@@ -52,7 +52,7 @@ export default function FilterBar({
       {/* 2. Subcategory Chips (Optional) */}
       {subCategories && subCategories.length > 0 && onSubCategoryChange && (
         <div className="flex flex-col gap-2">
-          <span className="text-[10px] font-bold text-ink/40 uppercase tracking-wider px-1">
+          <span className="text-[10px] font-bold text-ink/60 uppercase tracking-wider px-1">
             Alt Kategoriler
           </span>
           <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 -mx-4 px-4 sm:mx-0 sm:px-0 w-[calc(100%+2rem)] sm:w-full">
@@ -105,7 +105,7 @@ export default function FilterBar({
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1 border-t border-cardborder/60">
         {/* Difficulty Filter */}
         <div className="flex flex-col gap-1.5">
-          <label htmlFor="difficulty-select" className="text-[10px] font-bold text-ink/40 uppercase tracking-wider px-1 flex items-center gap-1">
+          <label htmlFor="difficulty-select" className="text-[10px] font-bold text-ink/60 uppercase tracking-wider px-1 flex items-center gap-1">
             <ChefHat className="w-3.5 h-3.5 text-olive/70" /> Zorluk Derecesi
           </label>
           <div className="relative">
@@ -120,7 +120,7 @@ export default function FilterBar({
               <option value="orta">Orta</option>
               <option value="zor">Zor</option>
             </select>
-            <div className="absolute inset-y-0 right-3.5 flex items-center pointer-events-none text-ink/40">
+            <div className="absolute inset-y-0 right-3.5 flex items-center pointer-events-none text-ink/60">
               <SlidersHorizontal className="w-3.5 h-3.5" />
             </div>
           </div>
@@ -128,7 +128,7 @@ export default function FilterBar({
 
         {/* Max Time Filter */}
         <div className="flex flex-col gap-1.5">
-          <label htmlFor="time-select" className="text-[10px] font-bold text-ink/40 uppercase tracking-wider px-1 flex items-center gap-1">
+          <label htmlFor="time-select" className="text-[10px] font-bold text-ink/60 uppercase tracking-wider px-1 flex items-center gap-1">
             <Clock className="w-3.5 h-3.5 text-olive/70" /> Toplam Süre
           </label>
           <div className="relative">
@@ -144,7 +144,7 @@ export default function FilterBar({
               <option value="60">60 dakika altı</option>
               <option value="120">120 dakika altı</option>
             </select>
-            <div className="absolute inset-y-0 right-3.5 flex items-center pointer-events-none text-ink/40">
+            <div className="absolute inset-y-0 right-3.5 flex items-center pointer-events-none text-ink/60">
               <SlidersHorizontal className="w-3.5 h-3.5" />
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function FilterBar({
       </div>
 
       {/* 4. Result Count */}
-      <div className="flex items-center justify-between pt-3 border-t border-cardborder/60 text-xs text-ink/50 font-medium">
+      <div className="flex items-center justify-between pt-3 border-t border-cardborder/60 text-xs text-ink/65 font-medium">
         <span>Filtreleme Seçenekleri</span>
         <span className="bg-cream-dark px-2.5 py-1 rounded-lg text-ink/70">
           {resultCount} tarif bulundu

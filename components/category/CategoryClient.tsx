@@ -153,7 +153,7 @@ export default function CategoryClient({ category, initialRecipes }: CategoryCli
                     transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                     className="bg-white rounded-2xl border border-cardborder p-12 text-center flex flex-col items-center justify-center gap-5 shadow-sm min-h-[350px] w-full"
                   >
-                    <div className="p-4 bg-cream-dark rounded-full text-ink/40">
+                    <div className="p-4 bg-cream-dark rounded-full text-ink/60">
                       <Inbox className="w-10 h-10" />
                     </div>
                     <div className="flex flex-col gap-1.5 max-w-md">

@@ -120,7 +120,7 @@ export default function Navbar() {
             </AnimatePresence>
             <button
               onClick={() => setIsSearchOpen(!isSearchOpen)}
-              className="p-2 text-ink/80 hover:text-terracotta transition-colors duration-200 rounded-full hover:bg-cream-dark"
+              className="p-2.5 -m-0.5 min-w-[44px] min-h-[44px] flex items-center justify-center text-ink/80 hover:text-terracotta transition-colors duration-200 rounded-full hover:bg-cream-dark"
               aria-label="Arama yap"
             >
               {isSearchOpen ? <X className="w-5 h-5" /> : <Search className="w-5 h-5" />}
@@ -146,7 +146,7 @@ export default function Navbar() {
           {/* Mobile Hamburger Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="p-2 md:hidden text-ink/80 hover:text-terracotta transition-colors duration-200 rounded-full hover:bg-cream-dark"
+            className="p-2.5 -m-0.5 min-w-[44px] min-h-[44px] md:hidden flex items-center justify-center text-ink/80 hover:text-terracotta transition-colors duration-200 rounded-full hover:bg-cream-dark"
             aria-label="Menüyü aç/kapat"
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -185,7 +185,7 @@ export default function Navbar() {
 
               {/* Mobile Category Links */}
               <div className="flex flex-col gap-1">
-                <span className="text-xs font-bold text-ink/40 uppercase tracking-wider px-3 mb-1">
+                <span className="text-xs font-bold text-ink/60 uppercase tracking-wider px-3 mb-1">
                   Kategoriler
                 </span>
                 {CATEGORIES.map((cat) => {

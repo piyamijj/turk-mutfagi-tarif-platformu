@@ -108,7 +108,7 @@ export default function SearchClient({ allRecipes, initialQuery }: SearchClientP
 
             {/* Large Search Input */}
             <div className="relative w-full max-w-2xl bg-white border border-cardborder rounded-2xl p-1.5 shadow-md flex items-center gap-2 focus-within:border-terracotta focus-within:ring-1 focus-within:ring-terracotta transition-all duration-200">
-              <div className="pl-3.5 text-ink/40">
+              <div className="pl-3.5 text-ink/60">
                 <Search className="w-5 h-5" />
               </div>
               <input
@@ -121,7 +121,7 @@ export default function SearchClient({ allRecipes, initialQuery }: SearchClientP
               {query && (
                 <button
                   onClick={() => handleQueryChange("")}
-                  className="text-xs font-bold text-ink/40 hover:text-terracotta px-3 py-2 rounded-xl hover:bg-cream-dark transition-colors"
+                  className="text-xs font-bold text-ink/60 hover:text-terracotta px-3 py-2 rounded-xl hover:bg-cream-dark transition-colors"
                 >
                   Temizle
                 </button>
@@ -139,7 +139,7 @@ export default function SearchClient({ allRecipes, initialQuery }: SearchClientP
             <div className="lg:col-span-4 lg:sticky lg:top-24 self-start z-20 flex flex-col gap-5 w-full">
               {/* Category Filter Card */}
               <div className="bg-white rounded-2xl border border-cardborder p-4 sm:p-6 shadow-sm flex flex-col gap-3 text-left">
-                <span className="text-[10px] font-bold text-ink/40 uppercase tracking-wider px-1 flex items-center gap-1">
+                <span className="text-[10px] font-bold text-ink/60 uppercase tracking-wider px-1 flex items-center gap-1">
                   <SlidersHorizontal className="w-3.5 h-3.5 text-olive/70" /> Ana Kategoriler
                 </span>
                 <div className="flex flex-col gap-1.5">
@@ -152,7 +152,7 @@ export default function SearchClient({ allRecipes, initialQuery }: SearchClientP
                     }`}
                   >
                     <span>Tüm Kategoriler</span>
-                    <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${mainCategory === undefined ? "bg-white/20 text-white" : "bg-ink/5 text-ink/50"}`}>
+                    <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${mainCategory === undefined ? "bg-white/20 text-white" : "bg-ink/5 text-ink/65"}`}>
                       {allRecipes.length}
                     </span>
                   </button>
@@ -171,7 +171,7 @@ export default function SearchClient({ allRecipes, initialQuery }: SearchClientP
                         }`}
                       >
                         <span>{cat.label}</span>
-                        <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${isActive ? "bg-white/20 text-white" : "bg-ink/5 text-ink/50"}`}>
+                        <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${isActive ? "bg-white/20 text-white" : "bg-ink/5 text-ink/65"}`}>
                           {count}
                         </span>
                       </button>
@@ -214,7 +214,7 @@ export default function SearchClient({ allRecipes, initialQuery }: SearchClientP
                     transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                     className="bg-white rounded-2xl border border-cardborder p-12 text-center flex flex-col items-center justify-center gap-5 shadow-sm min-h-[350px] w-full"
                   >
-                    <div className="p-4 bg-cream-dark rounded-full text-ink/40">
+                    <div className="p-4 bg-cream-dark rounded-full text-ink/60">
                       <Inbox className="w-10 h-10" />
                     </div>
                     <div className="flex flex-col gap-1.5 max-w-md">

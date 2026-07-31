@@ -319,7 +319,7 @@ export default function RecipeDetailClient({ recipe, relatedRecipes }: RecipeDet
                   <button
                     onClick={decrementServings}
                     disabled={scaleServings <= 1}
-                    className="p-1 rounded-lg hover:bg-white text-ink/60 hover:text-terracotta disabled:opacity-30 transition-all"
+                    className="p-1 min-w-[40px] min-h-[40px] flex items-center justify-center rounded-lg hover:bg-white text-ink/60 hover:text-terracotta disabled:opacity-30 transition-all"
                     aria-label="Porsiyon azalt"
                   >
                     <Minus className="w-3.5 h-3.5" />
@@ -330,7 +330,7 @@ export default function RecipeDetailClient({ recipe, relatedRecipes }: RecipeDet
                   <button
                     onClick={incrementServings}
                     disabled={scaleServings >= 20}
-                    className="p-1 rounded-lg hover:bg-white text-ink/60 hover:text-terracotta disabled:opacity-30 transition-all"
+                    className="p-1 min-w-[40px] min-h-[40px] flex items-center justify-center rounded-lg hover:bg-white text-ink/60 hover:text-terracotta disabled:opacity-30 transition-all"
                     aria-label="Porsiyon artır"
                   >
                     <Plus className="w-3.5 h-3.5" />
@@ -359,7 +359,7 @@ export default function RecipeDetailClient({ recipe, relatedRecipes }: RecipeDet
                             onClick={() => handleIngredientToggle(itemKey)}
                             className={`flex items-start gap-3 py-2 px-2.5 rounded-xl cursor-pointer transition-all duration-150 select-none ${
                               isChecked
-                                ? "bg-cream-dark/40 text-ink/40"
+                                ? "bg-cream-dark/40 text-ink/60"
                                 : "hover:bg-cream/30 text-ink/90"
                             }`}
                           >
@@ -383,7 +383,7 @@ export default function RecipeDetailClient({ recipe, relatedRecipes }: RecipeDet
                                 {ing.item}
                               </span>
                               {ing.note && (
-                                <span className={`text-xs ${isChecked ? "line-through" : "text-ink/50"}`}>
+                                <span className={`text-xs ${isChecked ? "line-through" : "text-ink/65"}`}>
                                   ({ing.note})
                                 </span>
                               )}
@@ -404,7 +404,7 @@ export default function RecipeDetailClient({ recipe, relatedRecipes }: RecipeDet
                   <Flame className="w-5 h-5" />
                 </div>
                 <div>
-                  <span className="text-[10px] font-bold text-ink/40 uppercase tracking-wider block">Porsiyon Başına Enerji</span>
+                  <span className="text-[10px] font-bold text-ink/60 uppercase tracking-wider block">Porsiyon Başına Enerji</span>
                   <span className="font-sans text-sm font-bold text-ink">{recipe.calories} kcal</span>
                 </div>
               </div>

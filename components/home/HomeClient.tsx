@@ -104,7 +104,7 @@ export default function HomeClient({ featuredRecipes, popularRecipes, categories
                 onSubmit={handleSearchSubmit}
                 className="relative w-full max-w-xl bg-white border border-cardborder-dark rounded-2xl p-2 shadow-lg flex items-center gap-2 focus-within:border-terracotta focus-within:ring-1 focus-within:ring-terracotta transition-all duration-200"
               >
-                <div className="pl-3 text-ink/40">
+                <div className="pl-3 text-ink/60">
                   <Search className="w-5 h-5" />
                 </div>
                 <input

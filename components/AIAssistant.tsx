@@ -158,7 +158,7 @@ export default function AIAssistant() {
                   {/* Suggested Recipes Chips */}
                   {msg.suggestedRecipeIds && msg.suggestedRecipeIds.length > 0 && (
                     <div className="mt-2 flex flex-col gap-1.5 w-full">
-                      <span className="text-[10px] font-bold text-ink/40 uppercase tracking-wider px-1">
+                      <span className="text-[10px] font-bold text-ink/60 uppercase tracking-wider px-1">
                         Önerilen Tarifler:
                       </span>
                       <div className="flex flex-wrap gap-1.5">
